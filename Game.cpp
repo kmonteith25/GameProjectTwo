@@ -69,6 +69,8 @@ void Game::gameLoop()
     float spriteOffsetX = 0;
     sf::Clock frameClock;
 
+    bool keyPress = false;
+
     Animation* currentAnimation = &walkingAnimationRight;
    
     while (Window.isOpen()) {
@@ -82,26 +84,33 @@ void Game::gameLoop()
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
         {
             movement.y -= speed;
+            keyPress = true; 
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
             movement.y += speed;
-
+            keyPress = true;
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
         {
             movement.x -= speed;
             currentAnimation = &walkingAnimationRight;
-
+            keyPress = true;
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
             movement.x += speed;
             currentAnimation = &walkingAnimationLeft;
-
+            keyPress = true;
         }
         animatedSprite.play(*currentAnimation);
         animatedSprite.move(movement * frameTime.asSeconds());
         animatedSprite.update(frameTime);
 
+        if (keyPress == false) {
+            animatedSprite.stop();
+        }
+
+
+        keyPress = false;
         spriteOffsetX = floor(viewOffsetX / textureWidth) * textureWidth;
         spriteOffsetY = floor(viewOffsetY / textureHeight) * textureHeight;
         //Sprite.setPosition(fBounds.left - spriteOffsetX, fBounds.top - spriteOffsetY);
