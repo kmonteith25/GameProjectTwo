@@ -43,7 +43,7 @@ void Game::gameLoop()
     hero.setTexture(hero_texture);
     hero.setPosition(100,100);
     hero.setTextureRect(sf::IntRect(64, 162, 32, 32));
-    hero.setScale(1.2f, 1.2f);
+    hero.setScale(1.5f, 1.5f);
 
 
     Animation walkingAnimationRight;
@@ -58,6 +58,7 @@ void Game::gameLoop()
 
     AnimatedSprite animatedSprite(sf::seconds(0.2), true, true);
 
+    animatedSprite.setScale(1.5f, 1.5f);
     animatedSprite.setPosition(100,100);
 
     unsigned int textureHeight = Texture.getSize().y;
