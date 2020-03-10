@@ -1,13 +1,13 @@
 #pragma once
 
 #include <list>
-#include "GameElement.h"
+#include "Entities/Entity.h"
 
 
 class Map
 {
 public:
-	std::list<GameElement> createMap();
-	std::list<GameElement> updateMap();
+	std::list<Entity> createMap();
+	std::list<Entity> updateMap();
 };
 
