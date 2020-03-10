@@ -1,2 +1,3 @@
-﻿  Main.cpp
+﻿  Hero.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(63,40): warning C4305: 'argument': truncation from 'double' to 'float'
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe

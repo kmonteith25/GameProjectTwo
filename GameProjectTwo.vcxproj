@@ -144,11 +144,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animations\Animation.cpp" />
+    <ClCompile Include="Animations\AnimatedSprite.cpp" />
+    <ClCompile Include="Entities\Characters\Character.cpp" />
+    <ClCompile Include="Entities\Entity.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Entities\Characters\Hero\Hero.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Map.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animations\Animation.h" />
+    <ClInclude Include="Animations\AnimatedSprite.h" />
+    <ClInclude Include="Entities\Characters\Character.h" />
+    <ClInclude Include="Entities\Entity.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Entities\Characters\Hero\Hero.h" />
+    <ClInclude Include="Map.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
