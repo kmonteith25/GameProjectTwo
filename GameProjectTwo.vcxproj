@@ -150,8 +150,11 @@
     <ClCompile Include="Entities\Entity.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Entities\Characters\Hero\Hero.cpp" />
+    <ClCompile Include="Entities\Items\Item.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Entities\Items\Potion.cpp" />
+    <ClCompile Include="Entities\Items\Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animations\Animation.h" />
@@ -160,7 +163,10 @@
     <ClInclude Include="Entities\Entity.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Entities\Characters\Hero\Hero.h" />
+    <ClInclude Include="Entities\Items\Item.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Entities\Items\Potion.h" />
+    <ClInclude Include="Entities\Items\Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
