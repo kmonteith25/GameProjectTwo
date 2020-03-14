@@ -1,6 +1,4 @@
 ﻿  Game.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.cpp(28,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.cpp(35,23): warning C4018: '<': signed/unsigned mismatch
-  Main.cpp
-  Generating Code...
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe
