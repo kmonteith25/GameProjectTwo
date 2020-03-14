@@ -1,34 +1,6 @@
 #include "Game.h"
-#include "Animations/Animation.h"
-#include "Animations/AnimatedSprite.h"
-#include "Entities/Characters/Hero/Hero.h"
-#include "Entities/Items/Potion.h"
-#include "Entities/Items/Tree.h"
 
 
-bool collision(Entity* Object1, Entity* Object2) {
-    sf::FloatRect bounds = Object1->getSprite().getGlobalBounds();
-    float x1 = bounds.left;
-    float y1 = bounds.top;
-    float x2 = x1 + bounds.width;
-    float y2 = y1 + bounds.height;
-
-
-
-    sf::FloatRect bounds2 = Object2->getSprite().getGlobalBounds();
-    float x1T = bounds2.left;
-    float y1T = bounds2.top;
-    float x2T = x1T + bounds2.width;
-    float y2T = y1T + bounds2.height;
-
-    if (x1 < x2T &&
-        x2 > x1T&&
-        y1 < y2T &&
-        y2 > y1T) {
-        return true;
-    }
-    return false;
-} 
 
 Game::Game()
 {
@@ -45,7 +17,6 @@ void Game::setup()
 
     fBounds = sf::FloatRect(0.f, 0.f, 1000.f, 1000.f);
 
-
 }
 
 void Game::userInputControlManager() {
@@ -53,9 +24,23 @@ void Game::userInputControlManager() {
 
 }
 
+void Game::InitMap() {
+    for (int i = 0; i < v.size(); i++) {
+        map->AddToMap(v[i]);
+    }
+
+}
+
+void Game::DrawMap() {
+    for (int i = 0; i < v.size();i++) {
+        Window.draw(v[i]->getSprite());
+    }
+
+}
 
 void Game::gameLoop()
 {
+    InitMap();
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassTile.jpg");
     sf::IntRect         iBounds(fBounds);
@@ -66,12 +51,9 @@ void Game::gameLoop()
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
 
-    Hero* hero = new Hero();
+    Hero* hero = new Hero(map);
     Potion potion = Potion();
-    Tree* tree = new Tree();
-    
     while (Window.isOpen()) {
-        tree->Update();
         sf::Event event;
         while (Window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
@@ -81,34 +63,31 @@ void Game::gameLoop()
         
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
             {
-                hero->MoveUp();
+                hero->Move("up");
                 keyPress = true;
 
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                hero->MoveDown();
+                hero->Move("down");
                 keyPress = true;
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
             {
-                hero->MoveLeft();
+                hero->Move("left");
                 keyPress = true;
             }
             else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                hero->MoveRight();
+                hero->Move("right");
                 keyPress = true;
             }
-
-        if (!collision(hero, tree)) {
-                hero->Update(keyPress);
-        }
         Window.clear();
         Window.setView(View);
         Window.draw(Sprite);
         
-        tree->Update();
+        hero->Update(keyPress);
+        DrawMap();
         Window.draw(hero->getSprite());
-        Window.draw(tree->getSprite());
+        
 
         Window.display();
         keyPress = false;

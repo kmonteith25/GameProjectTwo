@@ -4,5 +4,10 @@
 
 class Item : public Entity
 {
+public:
+	virtual AnimatedSprite getSprite();
+	Item(float x, float y);
+	Item();
+	~Item();
 };
 

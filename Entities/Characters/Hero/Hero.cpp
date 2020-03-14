@@ -1,13 +1,30 @@
 #include "Hero.h"
 
 
-Hero::Hero()
+Hero::Hero(Map* map)
 {
+    mapObject = map;
     setup();
 }
 
 Hero::~Hero()
 {
+}
+
+void Hero::Move(string direction) {
+        if (direction == "left") {
+            MoveLeft();
+        }
+        else if (direction == "right") {
+            MoveRight();
+        }
+        else if (direction == "up") {
+            MoveUp();
+        }
+        else if (direction == "down") {
+            MoveDown();
+        }
+
 }
 
 void Hero::MoveLeft() {
@@ -39,16 +56,42 @@ void Hero::startAnimation() {
     animation_playing = true;
 }
 
+bool Hero::collision(Entity* Object2) {
+    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    float x1 = bounds.left;
+    float y1 = bounds.top;
+    float x2 = x1 + bounds.width;
+    float y2 = y1 + bounds.height;
+    sf::FloatRect bounds2 = Object2->getSprite().getGlobalBounds();
+    float x1T = bounds2.left;
+    float y1T = bounds2.top;
+    float x2T = x1T + bounds2.width;
+    float y2T = y1T + bounds2.height;
+
+    if (x1 < x2T &&
+        x2 > x1T&&
+        y1 < y2T &&
+        y2 > y1T) {
+        return true;
+    }
+    return false;
+}
+
 AnimatedSprite Hero::getSprite() {
     return sprite;
 }
 
 void Hero::Update(bool keyPress) {
     sf::Time frameTime = frameClock.restart();
-    
-    sprite.move(movement * frameTime.asSeconds());
+    movement = movement * frameTime.asSeconds();
+    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    bounds.left += movement.x;
+    bounds.top += movement.y;
+    if (!mapObject->checkCollision(bounds)) {
+        sprite.move(movement);
+        
+    }
     sprite.update(frameTime);
-    
     movement.x = 0.0f;
     movement.y = 0.0f;
 

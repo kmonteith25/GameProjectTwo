@@ -1,7 +1,9 @@
 #include "Tree.h"
 
 
-Tree::Tree() {
+Tree::Tree(float x, float y) {
+    xPosition = x;
+    yPosition = y;
     setup();
     startAnimation();
 }
@@ -34,7 +36,7 @@ void Tree::setup() {
     texture.loadFromFile(spriteFile);
     sprite.setFrameTime(sf::seconds(6));
     //sprite.setScale(.5f, .5f);
-    sprite.setPosition(250, 20);
+    sprite.setPosition(xPosition, yPosition);
 
 
     currentAnimation.setSpriteSheet(texture);

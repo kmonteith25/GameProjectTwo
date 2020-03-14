@@ -7,7 +7,7 @@
 class Tree : public Item
 {
 public:
-	Tree();
+	Tree(float x, float y);
 	~Tree();
 	void startAnimation();
 	void Update();
@@ -25,5 +25,7 @@ private:
 	bool animation_playing = false;
 	void setup();
 	void animation();
+	float xPosition;
+	float yPosition;
 };
 

@@ -1,13 +1,18 @@
 #pragma once
 
-#include <list>
+#include <vector>
 #include "Entities/Entity.h"
-
+#include <iostream>
 
 class Map
 {
 public:
-	std::list<Entity> createMap();
-	std::list<Entity> updateMap();
+	void createMap();
+	std::vector<Entity> updateMap();
+	void AddToMap(Entity* entity);
+	bool checkCollision(sf::FloatRect rect);
+private:
+	std::vector<Entity*> returnMap();
+	std::vector<Entity*> Map;
 };
 
