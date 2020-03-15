@@ -27,7 +27,7 @@ public:
 	void Update(bool keyPress);
 	AnimatedSprite getSprite();
 private:
-	Animation currentAnimation;
+	Animation* currentAnimation;
 	Animation walkingAnimationRight;
 	Animation walkingAnimationLeft;
 	Animation walkingAnimationUp;

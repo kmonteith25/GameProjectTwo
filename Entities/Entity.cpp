@@ -12,6 +12,10 @@ Entity::Entity(float x, float y)
 {
 }
 
+void Entity::Update()
+{
+}
+
 AnimatedSprite Entity::getSprite()
 {
 	return AnimatedSprite();

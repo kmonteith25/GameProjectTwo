@@ -33,6 +33,7 @@ void Game::InitMap() {
 
 void Game::DrawMap() {
     for (int i = 0; i < v.size();i++) {
+        v[i]->Update();
         Window.draw(v[i]->getSprite());
     }
 
@@ -42,7 +43,7 @@ void Game::gameLoop()
 {
     InitMap();
     sf::Texture Texture;
-    Texture.loadFromFile("assets/sprites/grassTile.jpg");
+    Texture.loadFromFile("assets/sprites/grassSprite.png");
     sf::IntRect         iBounds(fBounds);
     Texture.setRepeated(true);
     sf::Sprite          Sprite(Texture, iBounds);

@@ -7,6 +7,7 @@
 #include "Entities/Characters/Hero/Hero.h"
 #include "Entities/Items/Potion.h"
 #include "Entities/Items/Tree.h"
+#include "Entities/Characters/ComputerPlayers/Enemies/FireChicken.h"
 #include "Map.h"
 
 using namespace std;
@@ -23,7 +24,7 @@ public:
 	void gameLoop();
 private:
 	sf::RenderWindow Window;
-	std::vector<Entity*> v = { new Tree(500,500),new Tree(500,200), new Tree(300,300) };
+	std::vector<Entity*> v = { new Tree(500,500),new Tree(500,200), new Tree(300,300), new FireChicken(250,250) };
 	sf::View View;
 	sf::FloatRect fBounds;
 	Map* map = new Map();

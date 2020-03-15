@@ -9,7 +9,6 @@ bool Map::checkCollision(sf::FloatRect bounds) {
     float y1 = bounds.top;
     float x2 = x1 + bounds.width;
     float y2 = y1 + bounds.height;
-    std::cout << Map.size() << "\n";
     for (auto& element : Map) {
         sf::FloatRect bounds2 = element->getSprite().getGlobalBounds();
         float x1T = bounds2.left;
