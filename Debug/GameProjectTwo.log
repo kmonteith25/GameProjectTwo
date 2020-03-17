@@ -1,16 +1,3 @@
-﻿  Character.cpp
-  FireChicken.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
-  Hero.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(106,41): warning C4305: 'argument': truncation from 'double' to 'float'
-  Entity.cpp
-  Item.cpp
-  Potion.cpp
-  Tree.cpp
-  Game.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.cpp(28,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.cpp(35,23): warning C4018: '<': signed/unsigned mismatch
-  Main.cpp
-  Map.cpp
-  Generating Code...
+﻿  Hero.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(127,41): warning C4305: 'argument': truncation from 'double' to 'float'
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe

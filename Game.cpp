@@ -24,24 +24,15 @@ void Game::userInputControlManager() {
 
 }
 
-void Game::InitMap() {
-    for (int i = 0; i < v.size(); i++) {
-        map->AddToMap(v[i]);
-    }
-
-}
-
-void Game::DrawMap() {
+void Game::DrawMap(vector<Entity*> v) {
     for (int i = 0; i < v.size();i++) {
         v[i]->Update();
         Window.draw(v[i]->getSprite());
     }
-
 }
 
 void Game::gameLoop()
 {
-    InitMap();
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
     sf::IntRect         iBounds(fBounds);
@@ -52,8 +43,9 @@ void Game::gameLoop()
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
 
+    vector<Entity*> t = map->GenerateFromArray(v);
+
     Hero* hero = new Hero(map);
-    Potion potion = Potion();
     while (Window.isOpen()) {
         sf::Event event;
         while (Window.pollEvent(event)) {
@@ -86,7 +78,7 @@ void Game::gameLoop()
         Window.draw(Sprite);
         
         hero->Update(keyPress);
-        DrawMap();
+        DrawMap(t);
         Window.draw(hero->getSprite());
         
 

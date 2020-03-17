@@ -11,7 +11,16 @@ Hero::~Hero()
 {
 }
 
+void Hero::setMoving(bool move) {
+    moving = move;
+}
+
+bool Hero::isMoving() {
+    return moving;
+}
+
 void Hero::Move(string direction) {
+    if (!isMoving()) {
         if (direction == "left") {
             MoveLeft();
         }
@@ -24,7 +33,8 @@ void Hero::Move(string direction) {
         else if (direction == "down") {
             MoveDown();
         }
-
+        setMoving(true);
+    }
 }
 
 void Hero::MoveLeft() {
@@ -46,7 +56,7 @@ void Hero::MoveDown() {
 }
 
 void Hero::MoveUp() {
-    movement.y -= speed;
+    movement.y = -speed;
     currentAnimation = &walkingAnimationUp;
     startAnimation();
 }
@@ -81,22 +91,33 @@ AnimatedSprite Hero::getSprite() {
     return sprite;
 }
 
-void Hero::Update(bool keyPress) {
-    sf::Time frameTime = frameClock.restart();
-    movement = movement * frameTime.asSeconds();
+void Hero::resetDistance() {
     sf::FloatRect bounds = getSprite().getGlobalBounds();
-    bounds.left += movement.x;
-    bounds.top += movement.y;
+    distanceX = 0;
+    distanceY = 0; 
+    startDistanceX = bounds.left;
+    startDistanceY = bounds.top;
+}
+void Hero::Update(bool keyPress) {
+    sf::Vector2f tempMove;
+    sf::Time frameTime = frameClock.restart();
+    tempMove = movement * frameTime.asSeconds();
+    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    bounds.left += tempMove.x;
+    bounds.top += tempMove.y;
+    distanceX += tempMove.x;
+    distanceY += tempMove.y;
     if (!mapObject->checkCollision(bounds)) {
-        sprite.move(movement);
+        sprite.move(tempMove);
         
     }
     sprite.update(frameTime);
-    movement.x = 0.0f;
-    movement.y = 0.0f;
-
-    if (!keyPress) {
+    if (abs(distanceX) >= 32 || abs(distanceY) >= 32) {
+        movement.x = 0;
+        movement.y = 0;
         sprite.stop();
+        resetDistance();
+        setMoving(false);
     }
 }
 

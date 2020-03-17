@@ -1,6 +1,8 @@
 #include "Potion.h"
 
-Potion::Potion() {
+Potion::Potion(float x, float y) {
+    xPosition = x;
+    yPosition = y;
     setup();
     startAnimation();
 }
@@ -33,7 +35,7 @@ void Potion::setup() {
     texture.loadFromFile(spriteFile);
     sprite.setFrameTime(sf::seconds(6));
     sprite.setScale(.5f, .5f);
-    sprite.setPosition(20, 20);
+    sprite.setPosition(xPosition, yPosition);
 
 
     currentAnimation.setSpriteSheet(texture);
