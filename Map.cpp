@@ -8,12 +8,17 @@ vector<Entity*> Map::GenerateFromArray(vector<vector<int>> v) {
     for (int i = 0; i < v.size(); i++) {
         for (int j = 0; j < v[i].size(); j++) {
             Entity* e;
-            if (v[i][j] == 0) {
-               
-            }
-            else {
+            switch (v[i][j]) {
+            case 0:
+                break;
+            case 1:
+                e = new Potion(j * 32, i * 32);
+                AddToMap(e);
+                break;
+            default:
                 e = new Tree(j * 32, i * 32);
                 AddToMap(e);
+                break;
             }
             
         }

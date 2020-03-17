@@ -39,7 +39,7 @@ private:
 	Animation walkingAnimationDown;
 	sf::Vector2f movement;
 	sf::Clock frameClock;
-	float speed = 150.f;
+	float speed = 100.f;
 
 	AnimatedSprite sprite;
 

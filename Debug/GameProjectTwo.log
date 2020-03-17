@@ -1,3 +1,8 @@
-﻿  Hero.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(127,41): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  Map.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(8,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(9,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(15,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(15,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(19,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Map.cpp(19,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe
