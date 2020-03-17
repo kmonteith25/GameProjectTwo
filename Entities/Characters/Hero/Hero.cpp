@@ -11,7 +11,16 @@ Hero::~Hero()
 {
 }
 
+void Hero::setMoving(bool move) {
+    moving = move;
+}
+
+bool Hero::isMoving() {
+    return moving;
+}
+
 void Hero::Move(string direction) {
+    if (!isMoving()) {
         if (direction == "left") {
             MoveLeft();
         }
@@ -24,35 +33,36 @@ void Hero::Move(string direction) {
         else if (direction == "down") {
             MoveDown();
         }
-
+        setMoving(true);
+    }
 }
 
 void Hero::MoveLeft() {
-    currentAnimation = walkingAnimationLeft;
+    currentAnimation = &walkingAnimationLeft;
     movement.x -= speed;
     startAnimation();
 }
 
 void Hero::MoveRight() {
     movement.x += speed;
-    currentAnimation = walkingAnimationRight;
+    currentAnimation = &walkingAnimationRight;
     startAnimation();
 }
 
 void Hero::MoveDown() {
     movement.y += speed;
-    currentAnimation = walkingAnimationDown;
+    currentAnimation = &walkingAnimationDown;
     startAnimation();
 }
 
 void Hero::MoveUp() {
-    movement.y -= speed;
-    currentAnimation = walkingAnimationUp;
+    movement.y = -speed;
+    currentAnimation = &walkingAnimationUp;
     startAnimation();
 }
 
 void Hero::startAnimation() {
-    sprite.play(currentAnimation);
+    sprite.play((*currentAnimation));
     animation_playing = true;
 }
 
@@ -81,29 +91,40 @@ AnimatedSprite Hero::getSprite() {
     return sprite;
 }
 
-void Hero::Update(bool keyPress) {
-    sf::Time frameTime = frameClock.restart();
-    movement = movement * frameTime.asSeconds();
+void Hero::resetDistance() {
     sf::FloatRect bounds = getSprite().getGlobalBounds();
-    bounds.left += movement.x;
-    bounds.top += movement.y;
+    distanceX = 0;
+    distanceY = 0; 
+    startDistanceX = bounds.left;
+    startDistanceY = bounds.top;
+}
+void Hero::Update(bool keyPress) {
+    sf::Vector2f tempMove;
+    sf::Time frameTime = frameClock.restart();
+    tempMove = movement * frameTime.asSeconds();
+    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    bounds.left += tempMove.x;
+    bounds.top += tempMove.y;
+    distanceX += tempMove.x;
+    distanceY += tempMove.y;
     if (!mapObject->checkCollision(bounds)) {
-        sprite.move(movement);
+        sprite.move(tempMove);
         
     }
     sprite.update(frameTime);
-    movement.x = 0.0f;
-    movement.y = 0.0f;
-
-    if (!keyPress) {
+    if (abs(distanceX) >= 32 || abs(distanceY) >= 32) {
+        movement.x = 0;
+        movement.y = 0;
         sprite.stop();
+        resetDistance();
+        setMoving(false);
     }
 }
 
 void Hero::setup() {
     spriteFile = "assets/sprites/trainerSprites.png";
     texture.loadFromFile(spriteFile);
-    sprite.setFrameTime(sf::seconds(0.1));
+    sprite.setFrameTime(sf::seconds(0.15));
     sprite.setScale(1.5f, 1.5f);
     sprite.setPosition(100, 100);
 
@@ -130,8 +151,8 @@ void Hero::setup() {
     walkingAnimationDown.addFrame(sf::IntRect(64, 192, 32, 32));
     walkingAnimationDown.addFrame(sf::IntRect(32, 192, 32, 32));
 
-    currentAnimation = walkingAnimationDown;
-    sprite.play(currentAnimation);
+    currentAnimation = &walkingAnimationDown;
+    sprite.play((*currentAnimation));
     sprite.stop();
 }
 

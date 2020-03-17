@@ -7,7 +7,7 @@
 class Potion : public Item
 {
 public:
-	Potion();
+	Potion(float x, float y);
 	~Potion();
 	void startAnimation();
 	void Update();
@@ -25,5 +25,7 @@ private:
 	bool animation_playing = false;
 	void setup();
 	void animation();
+	float xPosition;
+	float yPosition;
 };
 
