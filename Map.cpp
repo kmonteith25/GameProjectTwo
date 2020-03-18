@@ -12,7 +12,7 @@ vector<Entity*> Map::GenerateFromArray(vector<vector<int>> v) {
             case 0:
                 break;
             case 1:
-                e = new Potion(j * 32, i * 32);
+                e = ItemFactory::randomItem(j * 32, i * 32);
                 AddToMap(e);
                 break;
             default:

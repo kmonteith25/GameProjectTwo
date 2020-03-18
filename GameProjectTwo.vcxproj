@@ -153,6 +153,7 @@
     <ClCompile Include="Entities\Characters\Hero\Hero.cpp" />
     <ClCompile Include="Entities\Items\Item.cpp" />
     <ClCompile Include="ItemBag.cpp" />
+    <ClCompile Include="Factories\ItemFactory.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Entities\Items\Potion.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="Entities\Characters\Hero\Hero.h" />
     <ClInclude Include="Entities\Items\Item.h" />
     <ClInclude Include="ItemBag.h" />
+    <ClInclude Include="Factories\ItemFactory.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Entities\Items\Potion.h" />
     <ClInclude Include="Entities\Items\Tree.h" />

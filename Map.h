@@ -6,6 +6,7 @@
 #include "Entities/Items/Potion.h"
 #include <iostream>
 #include <SFML/Graphics/Drawable.hpp>
+#include "Factories/ItemFactory.h"
 using namespace std;
 class Map 
 {
