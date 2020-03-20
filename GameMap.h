@@ -6,20 +6,37 @@
 #include "Entities/Items/Potion.h"
 #include <iostream>
 #include <SFML/Graphics/Drawable.hpp>
+#include <SFML/Graphics.hpp>
 #include "Factories/ItemFactory.h"
+
+
+#include <tmxlite/Layer.hpp>
+#include <tmxlite/TileLayer.hpp>
+
+#include "OrtoMap.h"
+
 using namespace std;
-class Map 
+class GameMap
 {
 public:
+	GameMap();
+	~GameMap();
 	void createMap();
 	std::vector<Entity> updateMap();
 	void AddToMap(Entity* entity);
 	vector<Entity*> GenerateFromArray(vector<vector<int>> v);
 	void InitMap();
-	void DrawMap();
+	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
 private:
 	std::vector<Entity*> returnMap();
-	std::vector<Entity*> Map;
+
+	tmx::Map map;
+	MapLayer* layerZero;
+	MapLayer* layerOne;
+	MapLayer* layerTwo; 
+	MapLayer* layerThree;
+	MapLayer* layerFour;
+	tmx::ObjectGroup objectLayer;
 };
 

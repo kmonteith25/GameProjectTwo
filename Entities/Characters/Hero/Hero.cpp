@@ -1,7 +1,7 @@
 #include "Hero.h"
 
 
-Hero::Hero(Map* map)
+Hero::Hero(GameMap* map)
 {
     mapObject = map;
     setup();
@@ -121,12 +121,16 @@ void Hero::Update(bool keyPress) {
     }
 }
 
+void Hero::setPosition(float x, float y) {
+    sprite.setPosition(x,y);
+}
+
 void Hero::setup() {
     spriteFile = "assets/sprites/trainerSprites.png";
     texture.loadFromFile(spriteFile);
     sprite.setFrameTime(sf::seconds(0.15));
-    sprite.setScale(1.5f, 1.5f);
-    sprite.setPosition(100, 100);
+    sprite.setScale(1.f, 1.f);
+    
 
 
     walkingAnimationRight.setSpriteSheet(texture);

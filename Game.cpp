@@ -1,7 +1,6 @@
 #include "Game.h"
 
 
-
 Game::Game()
 {
 }
@@ -24,15 +23,14 @@ void Game::userInputControlManager() {
 
 }
 
-void Game::DrawMap(vector<Entity*> v) {
-    for (int i = 0; i < v.size();i++) {
-        v[i]->Update();
-        Window.draw(v[i]->getSprite());
-    }
-}
 
 void Game::gameLoop()
 {
+    
+    
+    sf::Clock globalClock;
+    Hero* hero = new Hero(map);
+
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
     sf::IntRect         iBounds(fBounds);
@@ -43,9 +41,12 @@ void Game::gameLoop()
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
 
-    vector<Entity*> t = map->GenerateFromArray(v);
+    sf::Music music;
+    music.openFromFile("music.ogg");
 
-    Hero* hero = new Hero(map);
+    music.setVolume(50);
+    music.play();
+    
     while (Window.isOpen()) {
         sf::Event event;
         while (Window.pollEvent(event)) {
@@ -53,37 +54,39 @@ void Game::gameLoop()
                 Window.close();
             }
         }
-        
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
-            {
-                hero->Move("up");
-                keyPress = true;
 
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                hero->Move("down");
-                keyPress = true;
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
-            {
-                hero->Move("left");
-                keyPress = true;
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                hero->Move("right");
-                keyPress = true;
-            }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+        {
+            hero->Move("up");
+            keyPress = true;
+
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+            hero->Move("down");
+            keyPress = true;
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+        {
+            hero->Move("left");
+            keyPress = true;
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            hero->Move("right");
+            keyPress = true;
+        }
         Window.clear();
         Window.setView(View);
         Window.draw(Sprite);
+
+        
+
         
         hero->Update(keyPress);
-        DrawMap(t);
+        map->DrawMap(&Window);
         Window.draw(hero->getSprite());
-        
 
         Window.display();
         keyPress = false;
 
-    }
+    } 
 }

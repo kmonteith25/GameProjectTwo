@@ -87,13 +87,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\zlib\include;C:\Users\Kmont\Desktop\tmxlite\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;tgui-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib;C:\zlib\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;tgui-d.lib;libtmxlite.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,15 +116,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\zlib\include;C:\Users\Kmont\Desktop\tmxlite\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;tgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib;C:\zlib\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;tgui.lib;libtmxlite.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,6 +147,17 @@
     <ClCompile Include="Animations\Animation.cpp" />
     <ClCompile Include="Animations\AnimatedSprite.cpp" />
     <ClCompile Include="Entities\Characters\Character.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Block.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Fish.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\FishTwo.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\HappyFace.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp" />
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Trash.cpp" />
     <ClCompile Include="Entities\Entity.cpp" />
     <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -155,7 +166,7 @@
     <ClCompile Include="ItemBag.cpp" />
     <ClCompile Include="Factories\ItemFactory.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="GameMap.cpp" />
     <ClCompile Include="Entities\Items\Potion.cpp" />
     <ClCompile Include="Entities\Items\Tree.cpp" />
   </ItemGroup>
@@ -163,16 +174,37 @@
     <ClInclude Include="Animations\Animation.h" />
     <ClInclude Include="Animations\AnimatedSprite.h" />
     <ClInclude Include="Entities\Characters\Character.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Block.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Dumb.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Fish.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\FishTwo.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\GhostMan.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\HappyFace.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Rodent.h" />
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Trash.h" />
     <ClInclude Include="Entities\Entity.h" />
     <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\FireChicken.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Entities\Characters\Hero\Hero.h" />
     <ClInclude Include="Entities\Items\Item.h" />
+    <ClInclude Include="OrtoMap.h" />
     <ClInclude Include="ItemBag.h" />
     <ClInclude Include="Factories\ItemFactory.h" />
-    <ClInclude Include="Map.h" />
+    <ClInclude Include="GameMap.h" />
     <ClInclude Include="Entities\Items\Potion.h" />
     <ClInclude Include="Entities\Items\Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pokemon.tsx" />
+    <None Include="test.tmx" />
+    <None Include="Tiles.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pokemon.png" />
+    <Image Include="pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

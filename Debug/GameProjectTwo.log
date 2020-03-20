@@ -1,1 +1,1 @@
-﻿  GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe
+﻿LINK : fatal error LNK1104: cannot open file 'sfml-audio-d-2.lib'

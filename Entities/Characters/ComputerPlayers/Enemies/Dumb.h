@@ -4,7 +4,7 @@
 #include <iostream>
 #include "../../../../Animations/AnimatedSprite.h"
 #include <string>
-#include "../../../../Map.h"
+#include "../../../../GameMap.h"
 using namespace std;
 
 // Pokemon = Metapod 
@@ -46,7 +46,7 @@ private:
 	int distanceY = 0;
 
 	bool animation_playing = false;
-	Map* mapObject;
+	GameMap* mapObject;
 	void setup();
 	float xPosition;
 	void animation();

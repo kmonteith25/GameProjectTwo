@@ -21,9 +21,6 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Map.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Animations\Animation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -57,12 +54,45 @@
     <ClCompile Include="Factories\ItemFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Fish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\FishTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\HappyFace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Trash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Animations\Animation.h">
@@ -98,5 +128,57 @@
     <ClInclude Include="Factories\ItemFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Trash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Fish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\FishTwo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\GhostMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\HappyFace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Rodent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Dumb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrtoMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.tmx" />
+    <None Include="Tiles.tsx" />
+    <None Include="pokemon.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pokemon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
