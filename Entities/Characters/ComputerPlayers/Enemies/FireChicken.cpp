@@ -87,8 +87,8 @@ void FireChicken::Update() {
 void FireChicken::setup() {
     spriteFile = "assets/sprites/pokemon.png";
     texture.loadFromFile(spriteFile);
-    sprite.setFrameTime(sf::seconds(0.1));
-    sprite.setScale(1.5f, 1.5f);
+    sprite.setFrameTime(sf::seconds(0.4));
+    sprite.setScale(3.5f, 3.5f);
     sprite.setPosition(xPosition,yPosition);
 
 

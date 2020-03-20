@@ -11,9 +11,8 @@ Game::~Game()
 
 void Game::setup()
 {
-    Window.create(sf::VideoMode(1000, 768), "", sf::Style::Close);
+    Window.create(sf::VideoMode(1000, 768), "Pokemon Killers", sf::Style::Close);
     View = sf::View(Window.getDefaultView());
-
     fBounds = sf::FloatRect(0.f, 0.f, 1000.f, 1000.f);
 
 }
@@ -33,17 +32,17 @@ void Game::gameLoop()
 
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
-    sf::IntRect         iBounds(fBounds);
+    sf::IntRect iBounds(fBounds);
     Texture.setRepeated(true);
-    sf::Sprite          Sprite(Texture, iBounds);
+    sf::Sprite Sprite(Texture, iBounds);
     Sprite.setPosition(fBounds.left - 1000.f + View.getSize().x, fBounds.top - 1000.f + View.getSize().y);
     unsigned int textureHeight = Texture.getSize().y;
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
-
+    Character* CH = EnemyFactory::randomEnemy(100,800);
     sf::Music music;
     music.openFromFile("music.ogg");
-
+    music.setLoop(true);
     music.setVolume(50);
     music.play();
     
@@ -76,13 +75,13 @@ void Game::gameLoop()
         }
         Window.clear();
         Window.setView(View);
-        Window.draw(Sprite);
 
         
-
         
-        hero->Update(keyPress);
+        hero->Update(keyPress,&View);
+        CH->Update();
         map->DrawMap(&Window);
+        Window.draw(CH->getSprite());
         Window.draw(hero->getSprite());
 
         Window.display();

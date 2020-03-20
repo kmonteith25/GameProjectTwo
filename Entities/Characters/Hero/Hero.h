@@ -29,7 +29,10 @@ public:
 	void startAnimation();
 	bool collision(Entity* Object2);
 	void resetDistance();
-	void Update(bool keyPress);
+	void Update(bool keyPress, sf::View* View);
+	void changeView(sf::View* View);
+	void setPositionInitial();
+	void setPositionInitial(float x, float y);
 	void setPosition(float x, float y);
 	AnimatedSprite getSprite();
 private:

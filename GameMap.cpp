@@ -36,9 +36,20 @@ void GameMap::DrawMap(sf::RenderWindow* Window) {
     Window->draw((*layerThree));
     Window->draw((*layerFour));
 }
+bool inArray(string array[],string query) {
+   
+    for (int i = 0; i <= array->size(); i++) {
+        if (query == array[i]) {
+            
+            return true;
+        }
+    }
+    return false;
+}
 
 bool GameMap::checkCollision(sf::FloatRect bounds)
 {
+
     float x1 = bounds.left;
     float y1 = bounds.top;
     float x2 = x1 + bounds.width;
@@ -46,16 +57,30 @@ bool GameMap::checkCollision(sf::FloatRect bounds)
     const auto& objects = objectLayer.getObjects();
     for (const auto& object : objects)
     {
-        tmx::FloatRect bounds2 = object.getAABB();
-        float x1T = bounds2.left;
-        float y1T = bounds2.top;
-        float x2T = x1T + bounds2.width;
-        float y2T = y1T + bounds2.height;
-        if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
-            return true;
+        if(inArray(collisionNames,object.getType())) {
+            
+            tmx::FloatRect bounds2 = object.getAABB();
+            float x1T = bounds2.left;
+            float y1T = bounds2.top;
+            float x2T = x1T + bounds2.width;
+            float y2T = y1T + bounds2.height;
+            if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
+                cout << "hit \n";
+                return true;
+            }
         }
     }
     return false;
+}
+
+tmx::FloatRect GameMap::getPlayerStartPosition() {
+    const auto& objects = objectLayer.getObjects();
+    for (const auto& object : objects)
+    {
+        if (object.getName() == "playerStart") {
+            return object.getAABB();
+        }
+    }
 }
 
 /*bool GameMap::checkCollision(sf::FloatRect bounds) {

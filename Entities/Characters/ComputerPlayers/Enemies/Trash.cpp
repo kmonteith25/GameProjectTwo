@@ -84,7 +84,7 @@ void Trash::Update() {
 }
 
 void Trash::setup() {
-    // spriteFile = "assets/sprites/pokemon.png"; // Sprite commented out untill added sprite for each specific pokemon 
+    spriteFile = "assets/sprites/pokemon.png"; // Sprite commented out untill added sprite for each specific pokemon 
     texture.loadFromFile(spriteFile);
     sprite.setFrameTime(sf::seconds(0.1));
     sprite.setScale(1.5f, 1.5f);

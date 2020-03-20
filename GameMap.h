@@ -28,8 +28,10 @@ public:
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
+	tmx::FloatRect getPlayerStartPosition();
 private:
 	std::vector<Entity*> returnMap();
+	string collisionNames[6] = {"trees","house","water","wall","hill","car",};
 
 	tmx::Map map;
 	MapLayer* layerZero;

@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClCompile Include="Animations\Animation.cpp" />
     <ClCompile Include="Animations\AnimatedSprite.cpp" />
+    <ClCompile Include="Factories\EnemyFactory.cpp" />
     <ClCompile Include="Entities\Characters\Character.cpp" />
     <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\Block.cpp" />
     <ClCompile Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp" />
@@ -173,6 +174,7 @@
   <ItemGroup>
     <ClInclude Include="Animations\Animation.h" />
     <ClInclude Include="Animations\AnimatedSprite.h" />
+    <ClInclude Include="Factories\EnemyFactory.h" />
     <ClInclude Include="Entities\Characters\Character.h" />
     <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\Block.h" />
     <ClInclude Include="Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h" />

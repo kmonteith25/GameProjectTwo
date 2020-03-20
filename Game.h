@@ -13,7 +13,7 @@
 #include "Entities/Items/Tree.h"
 #include "Entities/Characters/ComputerPlayers/Enemies/FireChicken.h"
 #include "GameMap.h"
-
+#include "Factories/EnemyFactory.h"
 #include <tmxlite/Map.hpp>
 
 
