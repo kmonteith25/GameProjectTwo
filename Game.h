@@ -2,8 +2,6 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-
-#include <zlib/zlib.h>
 #include <string>
 #include <iostream>
 #include "Animations/Animation.h"

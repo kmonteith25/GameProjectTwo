@@ -43,7 +43,7 @@ void Game::gameLoop()
     sf::Music music;
     music.openFromFile("music.ogg");
     music.setLoop(true);
-    music.setVolume(50);
+    music.setVolume(0);
     music.play();
     
     while (Window.isOpen()) {

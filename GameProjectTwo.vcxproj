@@ -87,7 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\zlib\include;C:\Users\Kmont\Desktop\tmxlite\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\tmxlite\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,14 +116,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\zlib\include;C:\Users\Kmont\Desktop\tmxlite\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\TGUI-0.8\include;C:\SFML-2.5.1\include;C:\tmxlite\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib;C:\zlib\lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\SFML-2.5.1\lib;C:\TGUI-0.8\lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;tgui.lib;libtmxlite.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
