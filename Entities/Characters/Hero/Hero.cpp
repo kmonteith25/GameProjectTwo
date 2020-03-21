@@ -1,7 +1,7 @@
 #include "Hero.h"
 
 
-Hero::Hero(Map* map)
+Hero::Hero(GameMap* map)
 {
     mapObject = map;
     setup();
@@ -98,7 +98,7 @@ void Hero::resetDistance() {
     startDistanceX = bounds.left;
     startDistanceY = bounds.top;
 }
-void Hero::Update(bool keyPress) {
+void Hero::Update(bool keyPress,sf::View* View) {
     sf::Vector2f tempMove;
     sf::Time frameTime = frameClock.restart();
     tempMove = movement * frameTime.asSeconds();
@@ -108,9 +108,11 @@ void Hero::Update(bool keyPress) {
     distanceX += tempMove.x;
     distanceY += tempMove.y;
     if (!mapObject->checkCollision(bounds)) {
+
         sprite.move(tempMove);
         
     }
+    changeView(View);
     sprite.update(frameTime);
     if (abs(distanceX) >= 32 || abs(distanceY) >= 32) {
         movement.x = 0;
@@ -121,13 +123,30 @@ void Hero::Update(bool keyPress) {
     }
 }
 
+void Hero::changeView(sf::View* View) {
+    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    float boundX = getSprite().getPosition().x - (View->getSize().x/2.f);
+    float boundY = getSprite().getPosition().y - (View->getSize().y / 2.f);
+    if (boundX > 0) {
+        View->setCenter(getSprite().getPosition().x,View->getCenter().y);
+    }
+    if (boundY > 0) {
+        View->setCenter(View->getCenter().x, getSprite().getPosition().y);
+    }
+}
+
+void Hero::setPositionInitial() {
+    tmx::FloatRect start = mapObject->getPlayerStartPosition();
+    sprite.setPosition(start.left,start.top);
+}
+
 void Hero::setup() {
     spriteFile = "assets/sprites/trainerSprites.png";
     texture.loadFromFile(spriteFile);
     sprite.setFrameTime(sf::seconds(0.15));
-    sprite.setScale(1.5f, 1.5f);
-    sprite.setPosition(100, 100);
-
+    sprite.setScale(1.f, 1.f);
+    
+    setPositionInitial();
 
     walkingAnimationRight.setSpriteSheet(texture);
     walkingAnimationRight.addFrame(sf::IntRect(0, 224, 32, 32));

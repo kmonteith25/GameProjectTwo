@@ -1,7 +1,6 @@
 #include "Game.h"
 
 
-
 Game::Game()
 {
 }
@@ -12,9 +11,8 @@ Game::~Game()
 
 void Game::setup()
 {
-    Window.create(sf::VideoMode(1000, 768), "", sf::Style::Close);
+    Window.create(sf::VideoMode(1000, 768), "Pokemon Killers", sf::Style::Close);
     View = sf::View(Window.getDefaultView());
-
     fBounds = sf::FloatRect(0.f, 0.f, 1000.f, 1000.f);
 
 }
@@ -24,28 +22,30 @@ void Game::userInputControlManager() {
 
 }
 
-void Game::DrawMap(vector<Entity*> v) {
-    for (int i = 0; i < v.size();i++) {
-        v[i]->Update();
-        Window.draw(v[i]->getSprite());
-    }
-}
 
 void Game::gameLoop()
 {
+    
+    
+    sf::Clock globalClock;
+    Hero* hero = new Hero(map);
+
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
-    sf::IntRect         iBounds(fBounds);
+    sf::IntRect iBounds(fBounds);
     Texture.setRepeated(true);
-    sf::Sprite          Sprite(Texture, iBounds);
+    sf::Sprite Sprite(Texture, iBounds);
     Sprite.setPosition(fBounds.left - 1000.f + View.getSize().x, fBounds.top - 1000.f + View.getSize().y);
     unsigned int textureHeight = Texture.getSize().y;
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
-
-    vector<Entity*> t = map->GenerateFromArray(v);
-
-    Hero* hero = new Hero(map);
+    Character* CH = EnemyFactory::randomEnemy(100,800);
+    sf::Music music;
+    music.openFromFile("music.ogg");
+    music.setLoop(true);
+    music.setVolume(0);
+    music.play();
+    
     while (Window.isOpen()) {
         sf::Event event;
         while (Window.pollEvent(event)) {
@@ -53,37 +53,39 @@ void Game::gameLoop()
                 Window.close();
             }
         }
-        
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
-            {
-                hero->Move("up");
-                keyPress = true;
 
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-                hero->Move("down");
-                keyPress = true;
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
-            {
-                hero->Move("left");
-                keyPress = true;
-            }
-            else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-                hero->Move("right");
-                keyPress = true;
-            }
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+        {
+            hero->Move("up");
+            keyPress = true;
+
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+            hero->Move("down");
+            keyPress = true;
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+        {
+            hero->Move("left");
+            keyPress = true;
+        }
+        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+            hero->Move("right");
+            keyPress = true;
+        }
         Window.clear();
         Window.setView(View);
-        Window.draw(Sprite);
+
         
-        hero->Update(keyPress);
-        DrawMap(t);
+        
+        hero->Update(keyPress,&View);
+        CH->Update();
+        map->DrawMap(&Window);
+        Window.draw(CH->getSprite());
         Window.draw(hero->getSprite());
-        
 
         Window.display();
         keyPress = false;
 
-    }
+    } 
 }

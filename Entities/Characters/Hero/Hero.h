@@ -4,13 +4,13 @@
 #include <iostream>
 #include "../../../Animations/AnimatedSprite.h"
 #include <string>
-#include "../../../Map.h"
+#include "../../../GameMap.h"
 using namespace std;
 
 class Hero : public Character
 {
 public:
-	Hero(Map* map);
+	Hero(GameMap* map);
 	Hero();
 	~Hero();
 
@@ -29,7 +29,11 @@ public:
 	void startAnimation();
 	bool collision(Entity* Object2);
 	void resetDistance();
-	void Update(bool keyPress);
+	void Update(bool keyPress, sf::View* View);
+	void changeView(sf::View* View);
+	void setPositionInitial();
+	void setPositionInitial(float x, float y);
+	void setPosition(float x, float y);
 	AnimatedSprite getSprite();
 private:
 	Animation* currentAnimation;
@@ -39,7 +43,7 @@ private:
 	Animation walkingAnimationDown;
 	sf::Vector2f movement;
 	sf::Clock frameClock;
-	float speed = 100.f;
+	float speed = 70.f;
 
 	AnimatedSprite sprite;
 
@@ -51,7 +55,7 @@ private:
 	float startDistanceX = 0;
 	float startDistanceY = 0;
 	bool animation_playing = false;
-	Map* mapObject;
+	GameMap* mapObject;
 	void setup();
 	void animation();
 	bool moving = false;
