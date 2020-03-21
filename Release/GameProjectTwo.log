@@ -1,4 +1,177 @@
+<<<<<<< Updated upstream
 ﻿  Block.cpp
+=======
+﻿  EnemyFactory.cpp
+>>>>>>> Stashed changes
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+<<<<<<< Updated upstream
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Dumb.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Factories\EnemyFactory.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Block.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -130,7 +303,41 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
-  Dumb.cpp
+  CollegeStudent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -261,8 +468,46 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
+<<<<<<< Updated upstream
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Fish.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Dumb.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -393,8 +638,46 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
+<<<<<<< Updated upstream
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   GhostMan.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  FishTwo.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -525,8 +808,47 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
+<<<<<<< Updated upstream
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   HairlessCat.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Compiling...
+  FlyingRodent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -657,8 +979,554 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
+<<<<<<< Updated upstream
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Rodent.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  GhostMan.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+<<<<<<< Updated upstream
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Trash.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  HairlessCat.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+<<<<<<< Updated upstream
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  FireChicken.cpp
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  HappyFace.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+>>>>>>> Stashed changes
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+<<<<<<< Updated upstream
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Rodent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -790,7 +1658,41 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Compiling...
   Trash.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -923,6 +1825,39 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   FireChicken.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -1054,7 +1989,43 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
-  Main.cpp
+  Game.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -1185,6 +2156,511 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
+  Hero.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(146,41): warning C4305: 'argument': truncation from 'double' to 'float'
+>>>>>>> Stashed changes
+  Main.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+  Compiling...
+  GameMap.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.h(47,21): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.h(51,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.h(49,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.h(50,20): error C2238: unexpected token(s) preceding ';'
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+<<<<<<< Updated upstream
   GameMap.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
@@ -1324,3 +2800,12 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(41,23): wa
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Release\GameProjectTwo.exe
+=======
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(44,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(100,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(101,35): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(104,27): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(108,31): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(120,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(121,27): warning C4018: '<': signed/unsigned mismatch
+>>>>>>> Stashed changes

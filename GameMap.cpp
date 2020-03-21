@@ -20,6 +20,8 @@ void GameMap::InitMap() {
     layerTwo = new MapLayer(map, 2);
     layerThree = new MapLayer(map, 4);
     layerFour = new MapLayer(map, 5);
+    //setupEnemySpawnLocations();
+    //spawnEnemies();
     objectLayer = map.getLayers()[3]->getLayerAs<tmx::ObjectGroup>();
        
 }
@@ -35,6 +37,7 @@ void GameMap::DrawMap(sf::RenderWindow* Window) {
     Window->draw((*layerTwo));
     Window->draw((*layerThree));
     Window->draw((*layerFour));
+    //drawEnemies(Window);
 }
 bool inArray(string array[],string query) {
    
@@ -65,7 +68,6 @@ bool GameMap::checkCollision(sf::FloatRect bounds)
             float x2T = x1T + bounds2.width;
             float y2T = y1T + bounds2.height;
             if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
-                cout << "hit \n";
                 return true;
             }
         }
@@ -79,6 +81,45 @@ tmx::FloatRect GameMap::getPlayerStartPosition() {
     {
         if (object.getName() == "playerStart") {
             return object.getAABB();
+        }
+    }
+}
+
+void GameMap::setupEnemySpawnLocations() {
+    const auto& objects = objectLayer.getObjects();
+    for (const auto& object : objects)
+    {
+        if (object.getName() == "enemySpawn") {
+            enemySpawnLocations.push_back(object.getAABB());
+        }
+    }
+}
+
+void GameMap::spawnEnemies() {
+    for (int i = 0; i < enemySpawnLocations.size(); i++) {
+        if (enemyGroups[i].size() <= MAX_ENEMIES_PER_GROUP) {
+            //spawn enemies
+            for (int j = 0; j < MAX_ENEMIES_PER_GROUP; j++) {
+                srand(time(NULL));
+                int randomSpawn = rand() % 10;
+                if (randomSpawn > 7) {
+                    //spawn if greater than 7
+                    srand(time(NULL));
+                    int randomY = rand() % int(enemySpawnLocations[i].top);
+                    int randomX = rand() % int(enemySpawnLocations[i].left);
+                    enemyGroups[i][j] = EnemyFactory::randomEnemy(float(randomX),float(randomY));
+                }
+
+            }
+        }
+   }
+}
+
+void GameMap::drawEnemies(sf::RenderWindow* Window) {
+    for (int i = 0; i < enemyGroups.size(); i++) {
+        for (int j = 0; j < enemyGroups[i].size(); j++) {
+            enemyGroups[i][j]->Update();
+            Window->draw(enemyGroups[i][j]->getSprite());
         }
     }
 }
