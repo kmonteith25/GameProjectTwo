@@ -13,6 +13,7 @@
 #include <tmxlite/Layer.hpp>
 #include <tmxlite/TileLayer.hpp>
 #include "OrtoMap.h"
+#include <chrono>
 
 using namespace std;
 class GameMap
@@ -35,10 +36,10 @@ private:
 	std::vector<Entity*> returnMap();
 
 	std::vector<tmx::FloatRect> enemySpawnLocations;
-	std::vector<vector<Character*>> enemyGroups;
+	std::array<std::array<Character*, 3>, 3> enemyGroups;
 	string collisionNames[6] = {"trees","house","water","wall","hill","car"};
 
-	int MAX_ENEMIES_PER_GROUP = 3;
+	int maxEnemiesGroup = 3;
 	tmx::Map map;
 	MapLayer* layerZero;
 	MapLayer* layerOne;
