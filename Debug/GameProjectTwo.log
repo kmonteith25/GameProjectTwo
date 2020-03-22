@@ -1,4 +1,6 @@
-﻿  EnemyFactory.cpp
+﻿  Animation.cpp
+  AnimatedSprite.cpp
+  EnemyFactory.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
@@ -129,7 +131,8 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Factories\EnemyFactory.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Factories\EnemyFactory.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Character.cpp
   Block.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
@@ -1582,6 +1585,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+  Entity.cpp
   FireChicken.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
@@ -1977,6 +1981,10 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(146,41): warning C4305: 'argument': truncation from 'double' to 'float'
+  Item.cpp
+  Generating Code...
+  Compiling...
+  ItemBag.cpp
   ItemFactory.cpp
   Main.cpp
 C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
@@ -2240,8 +2248,14 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(41,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(44,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(99,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(100,35): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(119,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(120,27): warning C4018: '<': signed/unsigned mismatch
+  Potion.cpp
+  Tree.cpp
   Generating Code...
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(82): warning C4715: 'GameMap::getPlayerStartPosition': not all control paths return a value
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(86): warning C4715: 'GameMap::getPlayerStartPosition': not all control paths return a value
      Creating library C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.lib and object C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exp
   GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe

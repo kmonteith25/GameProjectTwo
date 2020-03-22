@@ -1,12 +1,24 @@
 #include "EnemyFactory.h"
 
+#include "../Entities/Characters/ComputerPlayers/Enemies/FireChicken.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/CollegeStudent.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/Block.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/Dumb.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/Fish.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/FishTwo.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/FlyingRodent.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/GhostMan.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/HairlessCat.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/HappyFace.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/Rodent.h"
+#include "../Entities/Characters/ComputerPlayers/Enemies/Trash.h"
 
 Character* EnemyFactory::randomEnemy(float x, float y) {
-	srand(time(NULL));
+	srand(chrono::high_resolution_clock::now().time_since_epoch().count());
 	int randomItem = rand() % 10;
 	Character* character_placeholder;
 	
-	switch (5) {
+	switch (randomItem) {
 	case 0:
 		character_placeholder = new FireChicken(x,y);
 		break;

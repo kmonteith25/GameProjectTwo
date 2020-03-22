@@ -1,0 +1,54 @@
+﻿  Animation.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\Animation.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Rect.hpp': No such file or directory
+  AnimatedSprite.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  EnemyFactory.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Character.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Block.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  CollegeStudent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Dumb.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Fish.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  FishTwo.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  FlyingRodent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  GhostMan.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  HairlessCat.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  HappyFace.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Rodent.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Trash.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Entity.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  FireChicken.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Game.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Hero.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Item.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  ItemBag.cpp
+  ItemFactory.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Main.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Game.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  GameMap.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Potion.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Tree.cpp
+C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Animations\AnimatedSprite.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/RenderTarget.hpp': No such file or directory
+  Generating Code...

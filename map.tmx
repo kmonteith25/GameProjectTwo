@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="46">
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="47">
  <tileset firstgid="1" source="TileOne.tsx"/>
  <tileset firstgid="2561" source="TileTwo.tsx"/>
  <layer id="3" name="Tile Layer 3" width="120" height="120">
@@ -414,6 +414,7 @@
   <object id="43" type="house" x="1287" y="21" width="84" height="132"/>
   <object id="44" type="trees" x="1078" y="1" width="104" height="233"/>
   <object id="45" type="trees" x="1184" y="1" width="93" height="129"/>
+  <object id="46" x="630" y="962" width="178" height="110"/>
  </objectgroup>
  <layer id="2" name="Tile Layer 2" width="120" height="120">
   <data encoding="csv">

@@ -39,13 +39,13 @@ void Game::gameLoop()
     unsigned int textureHeight = Texture.getSize().y;
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
-    Character* CH = EnemyFactory::randomEnemy(100,800);
     sf::Music music;
     music.openFromFile("music.ogg");
     music.setLoop(true);
     music.setVolume(0);
     music.play();
     
+    Magic* magic = new Magic(200, 200);
     while (Window.isOpen()) {
         sf::Event event;
         while (Window.pollEvent(event)) {
@@ -77,13 +77,12 @@ void Game::gameLoop()
         Window.setView(View);
 
         
-        
+        magic->Update();
         hero->Update(keyPress,&View);
-        CH->Update();
         map->DrawMap(&Window);
-        Window.draw(CH->getSprite());
         Window.draw(hero->getSprite());
 
+        Window.draw(magic->getSprite());
         Window.display();
         keyPress = false;
 

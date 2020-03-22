@@ -9,12 +9,11 @@
 #include "Entities/Characters/Hero/Hero.h"
 #include "Entities/Items/Potion.h"
 #include "Entities/Items/Tree.h"
-#include "Entities/Characters/ComputerPlayers/Enemies/FireChicken.h"
 #include "GameMap.h"
-#include "Factories/EnemyFactory.h"
 #include <tmxlite/Map.hpp>
+#include "Magic.h"
 
-
+class EnemyFactory;
 
 using namespace std;
 class Game

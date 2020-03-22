@@ -21,6 +21,7 @@ bool Hero::isMoving() {
 
 void Hero::Move(string direction) {
     if (!isMoving()) {
+        mapObject->spawnEnemies();
         if (direction == "left") {
             MoveLeft();
         }
