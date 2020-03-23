@@ -152,9 +152,7 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
                     enemyGroups[i][j]->Update();
                     Window->draw((*enemyGroups[i][j]->getSprite()));
                 }
-                
             }
-           
         }
     }
 }

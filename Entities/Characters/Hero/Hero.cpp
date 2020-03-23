@@ -62,8 +62,6 @@ void Hero::MoveLeft() {
         movement.x -= speed;
         startAnimation();
     }
-    
-    
 }
 
 void Hero::MoveRight() {

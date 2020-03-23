@@ -14,6 +14,7 @@ void Game::setup()
     Window.create(sf::VideoMode(1000, 768), "Pokemon Killers", sf::Style::Close);
     View = sf::View(Window.getDefaultView());
     fBounds = sf::FloatRect(0.f, 0.f, 1000.f, 1000.f);
+    font.loadFromFile("assets/fonts/Zelda.ttf");
 
 }
 
@@ -22,13 +23,22 @@ void Game::userInputControlManager() {
 
 }
 
+void Game::updateHeroHealth() {
+    heroScore.setFont(font);
+    heroScore.setString(std::to_string(hero->getHealth())+"%");
+    heroScore.setCharacterSize(65);
+    heroScore.setFillColor(sf::Color::Red);
+    heroScore.setPosition(0+ View.getCenter().x - (View.getSize().x / 2), (700+ View.getCenter().y - (View.getSize().y / 2)));
+    Window.draw(heroScore);
+}
+
 
 void Game::gameLoop()
 {
     
     
     sf::Clock globalClock;
-    Hero* hero = new Hero(map);
+    hero = new Hero(map);
 
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
@@ -57,6 +67,7 @@ void Game::gameLoop()
     
 
     while (Window.isOpen()) {
+        
         sf::Event event;
         while (Window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
@@ -96,6 +107,7 @@ void Game::gameLoop()
         
         map->DrawMap(&Window);
         hero->Draw(&Window);
+        updateHeroHealth();
         Window.display();
         keyPress = false;
 

@@ -24,6 +24,7 @@ public:
 	~Game();
 	void setup();
 	void userInputControlManager();
+	void updateHeroHealth();
 	void DrawMap(vector<Entity*> v);
 	void InitMap();
 	void initMap();
@@ -33,6 +34,10 @@ private:
 	sf::RenderWindow Window;
 	sf::View View;
 	sf::FloatRect fBounds;
+
+	sf::Text heroScore;
+	sf::Font font;
+	Hero* hero;
 	GameMap* map = new GameMap(&Window);
 };
 
