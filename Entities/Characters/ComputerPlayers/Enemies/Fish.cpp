@@ -14,6 +14,10 @@ Fish::~Fish()
 {
 }
 
+int Fish::getHealth() {
+    return health;
+}
+
 void Fish::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +64,14 @@ void Fish::startAnimation() {
 }
 
 
-AnimatedSprite Fish::getSprite() {
-    return sprite;
+AnimatedSprite* Fish::getSprite() {
+    return &sprite;
+}
+
+void Fish::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
 }
 
 void Fish::Update() {
@@ -79,7 +89,10 @@ void Fish::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

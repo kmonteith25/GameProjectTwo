@@ -33,6 +33,6 @@ private:
 	sf::RenderWindow Window;
 	sf::View View;
 	sf::FloatRect fBounds;
-	GameMap* map = new GameMap();
+	GameMap* map = new GameMap(&Window);
 };
 

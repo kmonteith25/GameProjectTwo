@@ -8,9 +8,10 @@ public:
 	Entity();
 	Entity(float x, float y);
 	virtual void Update();
-	virtual AnimatedSprite getSprite();
+	virtual AnimatedSprite* getSprite();
 private:
 	std::string spriteFile = "";
 	virtual void animation() = 0;
+	
 };
 

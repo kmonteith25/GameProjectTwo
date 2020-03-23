@@ -19,8 +19,8 @@ using namespace std;
 class GameMap
 {
 public:
-	GameMap();
 	~GameMap();
+	GameMap(sf::RenderWindow* Window);
 	void createMap();
 	std::vector<Entity> updateMap();
 	void AddToMap(Entity* entity);
@@ -28,6 +28,7 @@ public:
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
+	Character* checkCollisionEnemy(sf::FloatRect bounds);
 	tmx::FloatRect getPlayerStartPosition();
 	void setupEnemySpawnLocations();
 	void spawnEnemies();
@@ -47,5 +48,7 @@ private:
 	MapLayer* layerThree;
 	MapLayer* layerFour;
 	tmx::ObjectGroup objectLayer;
+
+	sf::RenderWindow* Window;
 };
 

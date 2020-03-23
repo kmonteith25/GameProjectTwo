@@ -14,6 +14,16 @@ HappyFace::~HappyFace()
 {
 }
 
+int HappyFace::getHealth() {
+    return health;
+}
+
+void HappyFace::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void HappyFace::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void HappyFace::startAnimation() {
 }
 
 
-AnimatedSprite HappyFace::getSprite() {
-    return sprite;
+AnimatedSprite* HappyFace::getSprite() {
+    return &sprite;
 }
 
 void HappyFace::Update() {
@@ -79,7 +89,10 @@ void HappyFace::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

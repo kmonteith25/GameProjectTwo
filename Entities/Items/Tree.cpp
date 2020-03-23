@@ -12,8 +12,8 @@ Tree::~Tree() {
 
 }
 
-AnimatedSprite Tree::getSprite() {
-    return sprite;
+AnimatedSprite* Tree::getSprite() {
+    return &sprite;
 }
 
 void Tree::startAnimation() {

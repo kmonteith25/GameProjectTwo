@@ -11,8 +11,8 @@ Potion::~Potion() {
 
 }
 
-AnimatedSprite Potion::getSprite() {
-    return sprite;
+AnimatedSprite* Potion::getSprite() {
+    return &sprite;
 }
 
 void Potion::startAnimation() {

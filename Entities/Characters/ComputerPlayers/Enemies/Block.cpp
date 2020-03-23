@@ -15,6 +15,10 @@ Block::~Block()
 {
 }
 
+int Block::getHealth() {
+    return health;
+}
+
 void Block::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -49,6 +53,10 @@ void Block::MoveDown() {
     startAnimation();
 }
 
+void Block::hit()
+{
+}
+
 void Block::MoveUp() {
     movement.y -= speed;
     currentAnimation = &walkingAnimationUp;
@@ -61,8 +69,8 @@ void Block::startAnimation() {
 }
 
 
-AnimatedSprite Block::getSprite() {
-    return sprite;
+AnimatedSprite* Block::getSprite() {
+    return &sprite;
 }
 
 void Block::Update() {
@@ -80,7 +88,10 @@ void Block::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 
@@ -116,6 +127,12 @@ void Block::setup() {
     currentAnimation = &walkingAnimationDown;
     sprite.play((*currentAnimation));
     //sprite.stop();
+}
+
+void Block::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
 }
 
 void Block::animation()

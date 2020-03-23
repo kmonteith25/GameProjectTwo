@@ -42,15 +42,32 @@ void Game::gameLoop()
     sf::Music music;
     music.openFromFile("music.ogg");
     music.setLoop(true);
-    music.setVolume(0);
+    music.setVolume(4);
     music.play();
+
+    //sounds
+    sf::SoundBuffer buffer;
+    buffer.loadFromFile("magic.wav");
+    sf::Sound sound;
+    sound.setVolume(70);
+    sound.setBuffer(buffer);
+
+
+
     
-    Magic* magic = new Magic(200, 200);
+
     while (Window.isOpen()) {
         sf::Event event;
         while (Window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
                 Window.close();
+            }
+            else if (event.type == sf::Event::KeyPressed) {
+                if (event.key.code == 57) {
+                    sound.play();
+                    hero->Shoot();
+                   
+                }
             }
         }
 
@@ -73,16 +90,12 @@ void Game::gameLoop()
             hero->Move("right");
             keyPress = true;
         }
+        hero->Update(keyPress, &View);
         Window.clear();
         Window.setView(View);
-
         
-        magic->Update();
-        hero->Update(keyPress,&View);
         map->DrawMap(&Window);
-        Window.draw(hero->getSprite());
-
-        Window.draw(magic->getSprite());
+        hero->Draw(&Window);
         Window.display();
         keyPress = false;
 

@@ -1,7 +1,8 @@
 #include "GameMap.h"
 
-GameMap::GameMap()
+GameMap::GameMap(sf::RenderWindow* Window)
 {
+    this->Window = Window;
     InitMap();
 }
 
@@ -68,22 +69,33 @@ bool GameMap::checkCollision(sf::FloatRect bounds)
             }
         }
     }
+    if (checkCollisionEnemy(bounds)) {
+        return true;
+    }
+    return false;
+}
+
+Character* GameMap::checkCollisionEnemy(sf::FloatRect bounds) {
+    float x1 = bounds.left;
+    float y1 = bounds.top;
+    float x2 = x1 + bounds.width;
+    float y2 = y1 + bounds.height;
     for (int i = 0; i < enemyGroups.size(); i++) {
         for (int j = 0; j < enemyGroups[i].size(); j++) {
             if (enemyGroups[i][j] != NULL) {
-                sf::FloatRect bounds2 = enemyGroups[i][j]->getSprite().getGlobalBounds();
+                sf::FloatRect bounds2 = enemyGroups[i][j]->getSprite()->getGlobalBounds();
                 float x1T = bounds2.left;
                 float y1T = bounds2.top;
                 float x2T = x1T + bounds2.width;
                 float y2T = y1T + bounds2.height;
                 if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
-                    return true;
+                    return enemyGroups[i][j];
                 }
             }
 
         }
     }
-    return false;
+    return NULL;
 }
 
 tmx::FloatRect GameMap::getPlayerStartPosition() {
@@ -115,13 +127,11 @@ void GameMap::spawnEnemies() {
                 srand(chrono::high_resolution_clock::now().time_since_epoch().count());
                 int randomSpawn = rand() % 10;
                 if (randomSpawn > 7) {
-                    cout << "Spawning \n";
                     //spawn if greater than 7
                     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
                     tmx::FloatRect temp = enemySpawnLocations[i];
                     int randomY = rand() % int(temp.height) + int(temp.top);
                     int randomX = rand() % int(temp.width) + int(temp.left);
-                    cout << randomX << "," << randomY << "\n";
                     enemyGroups[i][j] = EnemyFactory::randomEnemy(float(randomX), float(randomY));
                 }
             }
@@ -134,8 +144,15 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
     for (int i = 0; i < enemyGroups.size(); i++) {
         for (int j = 0; j < enemyGroups[i].size(); j++) {
             if(enemyGroups[i][j] != NULL) { 
-                enemyGroups[i][j]->Update();
-                Window->draw(enemyGroups[i][j]->getSprite());
+                if (enemyGroups[i][j]->getHealth() <= 0) {
+                    enemyGroups[i][j]->~Character();
+                    enemyGroups[i][j] = NULL;
+                }
+                else {
+                    enemyGroups[i][j]->Update();
+                    Window->draw((*enemyGroups[i][j]->getSprite()));
+                }
+                
             }
            
         }

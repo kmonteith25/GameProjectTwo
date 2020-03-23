@@ -17,6 +17,8 @@ public:
 	Fish();
 	~Fish();
 
+	int getHealth();
+
 	void Move(string direction);
 
 	void MoveLeft();
@@ -27,7 +29,9 @@ public:
 	void MoveUp();
 	void startAnimation();
 	void Update();
-	AnimatedSprite getSprite();
+	AnimatedSprite* getSprite();
+
+	void hit(int hitPoints);
 
 private:
 	Animation* currentAnimation;
@@ -53,4 +57,8 @@ private:
 	float xPosition;
 	void animation();
 	float yPosition;
+
+	sf::Color color;
+	sf::Clock colorClock;
+	int health = 100;
 };

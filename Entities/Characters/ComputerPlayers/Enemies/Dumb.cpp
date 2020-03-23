@@ -14,6 +14,10 @@ Dumb::~Dumb()
 {
 }
 
+int Dumb::getHealth() {
+    return health;
+}
+
 void Dumb::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +64,14 @@ void Dumb::startAnimation() {
 }
 
 
-AnimatedSprite Dumb::getSprite() {
-    return sprite;
+void Dumb::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
+AnimatedSprite* Dumb::getSprite() {
+    return &sprite;
 }
 
 void Dumb::Update() {
@@ -79,7 +89,10 @@ void Dumb::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

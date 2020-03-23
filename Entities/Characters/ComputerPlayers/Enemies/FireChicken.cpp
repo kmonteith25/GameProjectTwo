@@ -15,6 +15,16 @@ FireChicken::~FireChicken()
 {
 }
 
+int FireChicken::getHealth() {
+    return health;
+}
+
+void FireChicken::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void FireChicken::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -61,8 +71,8 @@ void FireChicken::startAnimation() {
 }
 
 
-AnimatedSprite FireChicken::getSprite() {
-    return sprite;
+AnimatedSprite* FireChicken::getSprite() {
+    return &sprite;
 }
 
 void FireChicken::Update() {
@@ -80,7 +90,10 @@ void FireChicken::Update() {
     
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

@@ -5,6 +5,7 @@
 #include "../../../Animations/AnimatedSprite.h"
 #include <string>
 #include "../../../GameMap.h"
+#include "../../../Magic.h"
 using namespace std;
 
 class Hero : public Character
@@ -14,9 +15,13 @@ public:
 	Hero();
 	~Hero();
 
+	int getHealth();
+
 	void setMoving(bool move);
 
 	bool isMoving();
+
+	void hit(int hitPoints);
 
 	void Move(string direction);
 
@@ -26,15 +31,15 @@ public:
 	void MoveDown();
 
 	void MoveUp();
+	void Shoot();
 	void startAnimation();
+	void Draw(sf::RenderWindow* Window);
 	bool collision(Entity* Object2);
 	void resetDistance();
 	void Update(bool keyPress, sf::View* View);
 	void changeView(sf::View* View);
 	void setPositionInitial();
-	void setPositionInitial(float x, float y);
-	void setPosition(float x, float y);
-	AnimatedSprite getSprite();
+	AnimatedSprite* getSprite();
 private:
 	Animation* currentAnimation;
 	Animation walkingAnimationRight;
@@ -59,4 +64,11 @@ private:
 	void setup();
 	void animation();
 	bool moving = false;
+
+	vector<Magic*> shots;
+	sf::Color color;
+	sf::Clock colorClock;
+	string direction = "down";
+
+	int health = 100;
 };

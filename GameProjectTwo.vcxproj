@@ -210,6 +210,9 @@
     <Image Include="pokemon.png" />
     <Image Include="pokemon_tileset_from_public_tiles_32x32_by_chaoticcherrycake_dab2byf.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="magic.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -14,6 +14,16 @@ Rodent::~Rodent()
 {
 }
 
+int Rodent::getHealth() {
+    return health;
+}
+
+void Rodent::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void Rodent::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void Rodent::startAnimation() {
 }
 
 
-AnimatedSprite Rodent::getSprite() {
-    return sprite;
+AnimatedSprite* Rodent::getSprite() {
+    return &sprite;
 }
 
 void Rodent::Update() {
@@ -79,7 +89,10 @@ void Rodent::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

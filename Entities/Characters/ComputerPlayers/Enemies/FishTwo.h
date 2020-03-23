@@ -16,6 +16,10 @@ public:
 	FishTwo();
 	~FishTwo();
 
+	int getHealth();
+
+	void hit(int hitPoints);
+
 	void Move(string direction);
 
 	void MoveLeft();
@@ -26,7 +30,7 @@ public:
 	void MoveUp();
 	void startAnimation();
 	void Update();
-	AnimatedSprite getSprite();
+	AnimatedSprite* getSprite();
 
 private:
 	Animation* currentAnimation;
@@ -52,4 +56,8 @@ private:
 	float xPosition;
 	void animation();
 	float yPosition;
+
+	sf::Color color;
+	sf::Clock colorClock;
+	int health = 100;
 };

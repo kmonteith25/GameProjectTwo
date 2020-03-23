@@ -11,7 +11,7 @@ public:
 	~Tree();
 	void startAnimation();
 	void Update();
-	AnimatedSprite getSprite();
+	AnimatedSprite* getSprite();
 private:
 	Animation currentAnimation;
 	sf::Vector2f movement;

@@ -15,6 +15,8 @@ public:
 	Dumb();
 	~Dumb();
 
+	int getHealth();
+
 	void Move(string direction);
 
 	void MoveLeft();
@@ -25,7 +27,8 @@ public:
 	void MoveUp();
 	void startAnimation();
 	void Update();
-	AnimatedSprite getSprite();
+	void hit(int hitPoints);
+	AnimatedSprite* getSprite();
 
 private:
 	Animation* currentAnimation;
@@ -51,4 +54,8 @@ private:
 	float xPosition;
 	void animation();
 	float yPosition;
+
+	sf::Color color;
+	sf::Clock colorClock;
+	int health = 100;
 };
