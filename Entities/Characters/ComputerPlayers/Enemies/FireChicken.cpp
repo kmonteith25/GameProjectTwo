@@ -10,7 +10,7 @@ FireChicken::FireChicken(float x, float y) {
 
 FireChicken::FireChicken() {
 }
-
+ 
 FireChicken::~FireChicken()
 {
 }

@@ -1,7 +1,7 @@
 ﻿  Animation.cpp
   AnimatedSprite.cpp
   EnemyFactory.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -10,7 +10,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -19,31 +19,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -52,7 +43,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -61,7 +52,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -70,7 +61,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -79,7 +70,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -88,7 +79,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -97,7 +88,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -106,14 +97,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -122,7 +122,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -131,10 +131,14 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Factories\EnemyFactory.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Factories\EnemyFactory.cpp(17,69): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
   Character.cpp
   Block.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -143,7 +147,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -152,31 +156,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -185,7 +180,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -194,7 +189,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -203,7 +198,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -212,7 +207,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -221,7 +216,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -230,7 +225,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -239,14 +234,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -255,7 +259,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -264,9 +268,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Block.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
   CollegeStudent.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -275,7 +279,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -284,31 +288,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -317,7 +312,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -326,7 +321,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -335,7 +330,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -344,7 +339,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -353,7 +348,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -362,7 +357,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -371,14 +366,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -387,7 +391,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -396,9 +400,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\CollegeStudent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Dumb.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -407,7 +411,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -416,31 +420,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -449,7 +444,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -458,7 +453,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -467,7 +462,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -476,7 +471,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -485,7 +480,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -494,7 +489,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -503,14 +498,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -519,7 +523,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -528,9 +532,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Dumb.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Fish.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -539,7 +543,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -548,31 +552,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -581,7 +576,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -590,7 +585,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -599,7 +594,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -608,7 +603,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -617,7 +612,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -626,7 +621,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -635,14 +630,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -651,7 +655,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -660,9 +664,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Fish.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   FishTwo.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -671,7 +675,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -680,31 +684,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -713,7 +708,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -722,7 +717,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -731,7 +726,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -740,7 +735,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -749,7 +744,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -758,7 +753,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -767,14 +762,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -783,7 +787,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -792,9 +796,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FishTwo.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   FlyingRodent.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -803,7 +807,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -812,31 +816,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -845,7 +840,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -854,7 +849,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -863,7 +858,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -872,7 +867,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -881,7 +876,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -890,7 +885,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -899,14 +894,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -915,7 +919,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -924,9 +928,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FlyingRodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   GhostMan.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -935,7 +939,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -944,31 +948,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -977,7 +972,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -986,7 +981,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -995,7 +990,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1004,7 +999,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1013,7 +1008,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1022,7 +1017,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1031,14 +1026,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1047,7 +1051,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1056,9 +1060,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\GhostMan.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   HairlessCat.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1067,7 +1071,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1076,31 +1080,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1109,7 +1104,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1118,7 +1113,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1127,7 +1122,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1136,7 +1131,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1145,7 +1140,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1154,7 +1149,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1163,14 +1158,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1179,7 +1183,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1188,9 +1192,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HairlessCat.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   HappyFace.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1199,7 +1203,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1208,31 +1212,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1241,7 +1236,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1250,7 +1245,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1259,7 +1254,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1268,7 +1263,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1277,7 +1272,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1286,7 +1281,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1295,14 +1290,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1311,7 +1315,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1320,9 +1324,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\HappyFace.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Rodent.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1331,7 +1335,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1340,31 +1344,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1373,7 +1368,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1382,7 +1377,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1391,7 +1386,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1400,7 +1395,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1409,7 +1404,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1418,7 +1413,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1427,14 +1422,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1443,7 +1447,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1452,9 +1456,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Rodent.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Trash.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1463,7 +1467,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1472,31 +1476,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1505,7 +1500,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1514,7 +1509,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1523,7 +1518,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1532,7 +1527,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1541,7 +1536,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1550,7 +1545,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1559,14 +1554,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1575,7 +1579,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1584,10 +1588,10 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\Trash.cpp(89,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Entity.cpp
   FireChicken.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1596,7 +1600,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1605,31 +1609,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1638,7 +1633,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1647,7 +1642,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1656,7 +1651,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1665,7 +1660,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1674,7 +1669,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1683,7 +1678,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1692,14 +1687,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1708,7 +1712,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1717,9 +1721,9 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\ComputerPlayers\Enemies\FireChicken.cpp(90,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Game.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1728,7 +1732,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1737,31 +1741,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1770,7 +1765,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1779,7 +1774,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1788,7 +1783,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1797,7 +1792,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1806,7 +1801,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1815,7 +1810,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1824,14 +1819,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1840,7 +1844,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1850,7 +1854,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
   Hero.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1859,7 +1863,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1868,31 +1872,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1901,7 +1896,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1910,7 +1905,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1919,7 +1914,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1928,7 +1923,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1937,7 +1932,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1946,7 +1941,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -1955,14 +1950,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1971,7 +1975,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -1980,14 +1984,146 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(146,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Entities\Characters\Hero\Hero.cpp(147,41): warning C4305: 'argument': truncation from 'double' to 'float'
   Item.cpp
   Generating Code...
   Compiling...
   ItemBag.cpp
   ItemFactory.cpp
+  Magic.cpp
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=unsigned int
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Magic.cpp(87,40): warning C4305: 'argument': truncation from 'double' to 'float'
   Main.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -1996,7 +2132,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -2005,31 +2141,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2038,7 +2165,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2047,7 +2174,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2056,7 +2183,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2065,7 +2192,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2074,7 +2201,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2083,7 +2210,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2092,14 +2219,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -2108,7 +2244,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -2118,7 +2254,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
               T=unsigned int
           ]
   GameMap.cpp
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -2127,7 +2263,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(161,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=int
@@ -2136,31 +2272,22 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(162,35): war
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(220,55): warning C4244: 'argument': conversion from 'size_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,89): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(223,60): warning C4244: 'argument': conversion from 'uint32_t' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2169,7 +2296,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(230,171): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2178,7 +2305,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2187,7 +2314,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2196,7 +2323,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,204): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2205,7 +2332,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(231,185): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2214,7 +2341,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -2223,14 +2350,23 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): wa
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(232,176): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(286,22): warning C4244: 'return': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(465,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(466,25): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -2239,7 +2375,7 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(467,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=float
@@ -2248,14 +2384,25 @@ C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\OrtoMap.h(468,76): war
           [
               T=unsigned int
           ]
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(44,23): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(99,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(100,35): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(119,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(120,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(40,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(71,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(72,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(111,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(115,84): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(120,88): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(134,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(135,27): warning C4018: '<': signed/unsigned mismatch
   Potion.cpp
   Tree.cpp
   Generating Code...
-C:\Users\Kmont\source\repos\GameProjectTwo\GameProjectTwo\GameMap.cpp(86): warning C4715: 'GameMap::getPlayerStartPosition': not all control paths return a value
-     Creating library C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.lib and object C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exp
-  GameProjectTwo.vcxproj -> C:\Users\Kmont\source\repos\GameProjectTwo\Debug\GameProjectTwo.exe
+C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\GameMap.cpp(97): warning C4715: 'GameMap::getPlayerStartPosition': not all control paths return a value
+     Creating library C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Debug\GameProjectTwo.lib and object C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Debug\GameProjectTwo.exp
+  GameProjectTwo.vcxproj -> C:\Users\Issac Rodriguez\Desktop\RPG\GameProjectTwo\GameProjectTwo\Debug\GameProjectTwo.exe

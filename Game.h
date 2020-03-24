@@ -5,7 +5,7 @@
 #include <string>
 #include <iostream>
 #include "Animations/Animation.h"
-#include "Animations/AnimatedSprite.h"
+#include "Animations/AnimatedSprite.h" 
 #include "Entities/Characters/Hero/Hero.h"
 #include "Entities/Items/Potion.h"
 #include "Entities/Items/Tree.h"
