@@ -236,7 +236,7 @@ void Hero::Update(bool keyPress,sf::View* View) {
         }
     }
     setKills(mapObject->getHeroKills());
-    cout << kills << "\n";
+    cout << kills << "\n" ;
 }
 
 void Hero::changeView(sf::View* View) {
