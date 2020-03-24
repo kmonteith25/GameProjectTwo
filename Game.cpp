@@ -59,12 +59,8 @@ void Game::gameLoop()
     sf::SoundBuffer buffer;
     buffer.loadFromFile("magic.wav");
     sf::Sound sound;
-    sound.setVolume(70);
-    sound.setBuffer(buffer);
-
-
-
-    
+    sound.setVolume(10);
+    sound.setBuffer(buffer);   
 
     while (Window.isOpen()) {
         

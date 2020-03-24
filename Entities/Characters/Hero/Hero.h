@@ -40,6 +40,7 @@ public:
 	void changeView(sf::View* View);
 	void setPositionInitial();
 	AnimatedSprite* getSprite();
+	
 private:
 	Animation* currentAnimation;
 	Animation walkingAnimationRight;
@@ -70,5 +71,10 @@ private:
 	sf::Clock colorClock;
 	string direction = "down";
 
+
 	int health = 100;
+	int kills = 0;
+	
+	void setKills(int kills);
+
 };

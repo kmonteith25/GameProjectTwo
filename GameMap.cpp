@@ -1,5 +1,6 @@
 #include "GameMap.h"
 
+
 GameMap::GameMap(sf::RenderWindow* Window)
 {
     this->Window = Window;
@@ -145,6 +146,7 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
         for (int j = 0; j < enemyGroups[i].size(); j++) {
             if(enemyGroups[i][j] != NULL) { 
                 if (enemyGroups[i][j]->getHealth() <= 0) {
+                    increaseHeroKills(true);
                     enemyGroups[i][j]->~Character();
                     enemyGroups[i][j] = NULL;
                 }
@@ -155,6 +157,18 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
             }
         }
     }
+}
+
+
+void GameMap::increaseHeroKills(bool kill)
+{
+    if (kill) {
+        heroKills++;
+    }
+}
+
+int GameMap::getHeroKills() {
+    return heroKills;
 }
 
 /*bool GameMap::checkCollision(sf::FloatRect bounds) {

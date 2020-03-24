@@ -235,6 +235,8 @@ void Hero::Update(bool keyPress,sf::View* View) {
             shots[i]->Update();
         }
     }
+    setKills(mapObject->getHeroKills());
+    cout << kills << "\n";
 }
 
 void Hero::changeView(sf::View* View) {
@@ -288,6 +290,12 @@ void Hero::setup() {
     sprite.stop();
 }
 
+
+void Hero::setKills(int kills) {
+    this->kills = kills;
+}
+
 void Hero::animation()
 {
 }
+

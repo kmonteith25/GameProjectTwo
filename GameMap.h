@@ -33,6 +33,8 @@ public:
 	void setupEnemySpawnLocations();
 	void spawnEnemies();
 	void drawEnemies(sf::RenderWindow* Window);
+	void increaseHeroKills(bool kill);
+	int getHeroKills();
 private:
 	std::vector<Entity*> returnMap();
 
@@ -50,5 +52,7 @@ private:
 	tmx::ObjectGroup objectLayer;
 
 	sf::RenderWindow* Window;
+
+	int heroKills = 0;
 };
 
