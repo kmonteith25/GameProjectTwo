@@ -1,5 +1,6 @@
 #include "Game.h"
-
+#include "GameMap.h"
+#include "Entities/Characters/Hero/Hero.h"
 
 Game::Game()
 {

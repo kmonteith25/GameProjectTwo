@@ -6,11 +6,12 @@
 #include <string>
 #include "../../../../GameMap.h"
 using namespace std;
-
+class GameMap;
 class FireChicken : public Character
 {
 public:
 		FireChicken(float x, float y);
+		FireChicken(float x, float y,GameMap* gamemap);
 		FireChicken();
 		~FireChicken();
 
@@ -20,6 +21,10 @@ public:
 
 		void Move(string direction);
 
+		void setMoving(bool move);
+
+		bool isMoving();
+
 		void MoveLeft();
 		void MoveRight();
 
@@ -28,7 +33,9 @@ public:
 		void MoveUp();
 		void startAnimation();
 		void Update();
+		void resetDistance();
 		AnimatedSprite* getSprite();
+		void randomMove();
 	private:
 		Animation* currentAnimation;
 		Animation walkingAnimationRight;
@@ -44,8 +51,11 @@ public:
 		std::string spriteFile;
 
 		sf::Texture texture;
-		int distanceX = 0;
-		int distanceY = 0;
+		float distanceX = 0;
+		float distanceY = 0;
+		float startDistanceX = 0;
+		float startDistanceY = 0;
+		bool moving = false;
 
 		bool animation_playing = false;
 		GameMap* mapObject;

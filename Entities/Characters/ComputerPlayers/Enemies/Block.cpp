@@ -1,5 +1,11 @@
 #include "Block.h"
 
+Block::Block(float x, float y,GameMap* gamemap) {
+    xPosition = x;
+    yPosition = y;
+    setup();
+    startAnimation();
+}
 
 Block::Block(float x, float y) {
     xPosition = x;

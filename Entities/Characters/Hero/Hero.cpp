@@ -218,8 +218,6 @@ void Hero::Update(bool keyPress,sf::View* View) {
         color = sf::Color(255, 255, 255, 255);
     }
 
-
-
     changeView(View);
     sprite.update(frameTime);
     if (abs(distanceX) >= 32 || abs(distanceY) >= 32) {
@@ -236,7 +234,6 @@ void Hero::Update(bool keyPress,sf::View* View) {
         }
     }
     setKills(mapObject->getHeroKills());
-    cout << kills << "\n" ;
 }
 
 void Hero::changeView(sf::View* View) {

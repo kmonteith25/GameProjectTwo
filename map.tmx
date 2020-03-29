@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="61">
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="65">
  <tileset firstgid="1" source="TileOne.tsx"/>
  <tileset firstgid="2561" source="TileTwo.tsx"/>
  <layer id="3" name="Tile Layer 3" width="120" height="120">
@@ -424,6 +424,10 @@
   <object id="56" type="trees" x="329" y="204" width="46" height="51"/>
   <object id="57" type="trees" x="479" y="353" width="38" height="23"/>
   <object id="59" type="house" x="1446" y="481" width="68" height="95"/>
+  <object id="61" type="enemyBounds" x="54" y="704" width="8" height="417"/>
+  <object id="62" type="enemyBounds" x="53" y="1121" width="746" height="11"/>
+  <object id="63" type="enemyBounds" x="801" y="702" width="11" height="431"/>
+  <object id="64" type="enemyBounds" x="51" y="694" width="765" height="8"/>
  </objectgroup>
  <layer id="2" name="Tile Layer 2" width="120" height="120">
   <data encoding="csv">

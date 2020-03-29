@@ -1,5 +1,6 @@
 #include "GameMap.h"
 
+#include "Factories/EnemyFactory.h"
 
 GameMap::GameMap(sf::RenderWindow* Window)
 {
@@ -76,6 +77,30 @@ bool GameMap::checkCollision(sf::FloatRect bounds)
     return false;
 }
 
+bool GameMap::checkCollisionForEnemy(sf::FloatRect bounds)
+{
+
+    float x1 = bounds.left;
+    float y1 = bounds.top;
+    float x2 = x1 + bounds.width;
+    float y2 = y1 + bounds.height;
+    const auto& objects = objectLayer.getObjects();
+    for (const auto& object : objects)
+    {
+        if (inArray(collisionNames, object.getType()) || object.getType() == "enemyBounds") {
+                tmx::FloatRect bounds2 = object.getAABB();
+                float x1T = bounds2.left;
+                float y1T = bounds2.top;
+                float x2T = x1T + bounds2.width;
+                float y2T = y1T + bounds2.height;
+                if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
+                    return true;
+                }
+        }
+    }
+    return false;
+}
+
 Character* GameMap::checkCollisionEnemy(sf::FloatRect bounds) {
     float x1 = bounds.left;
     float y1 = bounds.top;
@@ -133,7 +158,7 @@ void GameMap::spawnEnemies() {
                     tmx::FloatRect temp = enemySpawnLocations[i];
                     int randomY = rand() % int(temp.height) + int(temp.top);
                     int randomX = rand() % int(temp.width) + int(temp.left);
-                    enemyGroups[i][j] = EnemyFactory::randomEnemy(float(randomX), float(randomY));
+                    enemyGroups[i][j] = EnemyFactory::randomEnemy(float(randomX), float(randomY),this);
                 }
             }
 

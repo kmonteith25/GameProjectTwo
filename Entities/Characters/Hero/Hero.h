@@ -4,7 +4,6 @@
 #include <iostream>
 #include "../../../Animations/AnimatedSprite.h"
 #include <string>
-#include "../../../GameMap.h"
 #include "../../../Magic.h"
 using namespace std;
 
@@ -60,11 +59,12 @@ private:
 	float distanceY = 0;
 	float startDistanceX = 0;
 	float startDistanceY = 0;
+	bool moving = false;
 	bool animation_playing = false;
 	GameMap* mapObject;
 	void setup();
 	void animation();
-	bool moving = false;
+	
 
 	vector<Magic*> shots;
 	sf::Color color;

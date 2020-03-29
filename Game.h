@@ -4,14 +4,8 @@
 #include <SFML/Audio.hpp>
 #include <string>
 #include <iostream>
-#include "Animations/Animation.h"
-#include "Animations/AnimatedSprite.h"
-#include "Entities/Characters/Hero/Hero.h"
-#include "Entities/Items/Potion.h"
-#include "Entities/Items/Tree.h"
-#include "GameMap.h"
 #include <tmxlite/Map.hpp>
-#include "Magic.h"
+#include "Entities/Characters/Hero/Hero.h"
 
 class EnemyFactory;
 
@@ -25,10 +19,6 @@ public:
 	void setup();
 	void userInputControlManager();
 	void updateHeroHealth();
-	void DrawMap(vector<Entity*> v);
-	void InitMap();
-	void initMap();
-	void DrawMap();
 	void gameLoop();
 private:
 	sf::RenderWindow Window;

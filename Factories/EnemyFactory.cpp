@@ -13,14 +13,15 @@
 #include "../Entities/Characters/ComputerPlayers/Enemies/Rodent.h"
 #include "../Entities/Characters/ComputerPlayers/Enemies/Trash.h"
 
-Character* EnemyFactory::randomEnemy(float x, float y) {
+
+Character* EnemyFactory::randomEnemy(float x, float y, GameMap* gamemap) {
 	srand(chrono::high_resolution_clock::now().time_since_epoch().count());
 	int randomItem = rand() % 10;
 	Character* character_placeholder;
 	
-	switch (randomItem) {
+	switch (0) {
 	case 0:
-		character_placeholder = new FireChicken(x,y);
+		character_placeholder = new FireChicken(x,y,gamemap);
 		break;
 	case 1:
 		character_placeholder = new CollegeStudent(x, y);

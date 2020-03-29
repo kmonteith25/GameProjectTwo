@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "../Animations/AnimatedSprite.h"
+
 class Entity
 {
 public:

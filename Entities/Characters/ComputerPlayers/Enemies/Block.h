@@ -13,6 +13,7 @@ using namespace std;
 class Block : public Character
 {
 public:
+	Block(float x, float y, GameMap* gamemap);
 	Block(float x, float y);
 	Block();
 	~Block();
