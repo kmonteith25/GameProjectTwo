@@ -12,6 +12,7 @@ Character::Character(float x, float y, GameMap* gamemap)
 {
 }
 
-void Character::Update()
+void Character::Update(sf::RenderWindow* Window)
 {
 }
+

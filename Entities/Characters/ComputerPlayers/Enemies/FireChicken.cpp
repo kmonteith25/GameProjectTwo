@@ -72,7 +72,7 @@ void FireChicken::MoveLeft() {
     currentAnimation = &walkingAnimationLeft;
     movement.x -= speed;
     startAnimation();
-    
+    direction = "left";
 }
 
 void FireChicken::MoveRight() {
@@ -81,18 +81,21 @@ void FireChicken::MoveRight() {
     sprite.setOrigin({ sprite.getLocalBounds().width / 2, 0 });
     sprite.setScale({ -1, 1 });
     startAnimation();
+    direction = "right";
 }
 
 void FireChicken::MoveDown() {
     movement.y += speed;
     currentAnimation = &walkingAnimationDown;
     startAnimation();
+    direction = "down";
 }
 
 void FireChicken::MoveUp() {
     movement.y -= speed;
     currentAnimation = &walkingAnimationUp;
     startAnimation();
+    direction = "up";
 }
 
 void FireChicken::startAnimation() {
@@ -128,11 +131,12 @@ void FireChicken::randomMove() {
 
 }
 
-void FireChicken::Update() {
+void FireChicken::Update(sf::RenderWindow* Window) {
     sf::Vector2f tempMove;
     sf::Time frameTime = frameClock.restart();
     tempMove = movement * frameTime.asSeconds();
     if (!isMoving()) {
+        Shoot();
         randomMove();
     }
     sf::FloatRect bounds = getSprite()->getGlobalBounds();
@@ -164,6 +168,30 @@ void FireChicken::Update() {
         color = sf::Color(255, 255, 255, 255);
     }
     sprite.update(frameTime);
+    for (int i = 0; i < shots.size(); i++) {
+        if (shots[i] != NULL) {
+            shots[i]->Update();
+        }
+    }
+    for (int i = 0; i < shots.size(); i++) {
+        if (shots[i] != NULL) {
+            bool checkCollide = mapObject->checkCollision(shots[i]->getSprite()->getGlobalBounds());
+            Character* checkCollideEnemy = mapObject->checkCollisionHero(shots[i]->getSprite()->getGlobalBounds());
+      
+            if ((abs(shots[i]->getDistance())) < 100.0f && !checkCollide) {
+                Window->draw((*shots[i]->getSprite()));
+            }
+            else {
+                if (checkCollideEnemy) {
+                    checkCollideEnemy->hit(10);
+                }
+                shots.empty();
+                shots[i]->~Magic();
+                shots.erase(shots.begin() + i);
+            }
+        }
+
+    }
 }
 
 void FireChicken::resetDistance() {
@@ -205,6 +233,33 @@ void FireChicken::setup() {
     sprite.play((*currentAnimation));
     //sprite.stop();
 }
+
+void FireChicken::Shoot() {
+    if (shots.size() < 5) {
+        //only allow five magics at a time
+        sf::FloatRect heroLocation = getSprite()->getGlobalBounds();
+        float left, top;
+        left = heroLocation.left;
+        top = heroLocation.top;
+        if (direction == "left") {
+            top = top + (heroLocation.height / 4);
+        }
+        else if (direction == "right") {
+            top = top + (heroLocation.height / 4);
+            left = left + heroLocation.width;
+        }
+        else if (direction == "down") {
+            left = left + (heroLocation.width / 4);
+            top = top + heroLocation.height;
+        }
+        else if (direction == "up") {
+            left = left + (heroLocation.width / 4);
+        }
+
+        shots.push_back(new Magic(left, top, direction));
+    }
+}
+
 
 void FireChicken::animation()
 {

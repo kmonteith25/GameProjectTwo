@@ -28,6 +28,6 @@ private:
 	sf::Text heroScore;
 	sf::Font font;
 	Hero* hero;
-	GameMap* map = new GameMap(&Window);
+	GameMap* map;
 };
 

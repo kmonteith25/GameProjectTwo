@@ -375,7 +375,7 @@
 </data>
  </layer>
  <objectgroup id="7" name="PlayerInteractions">
-  <object id="2" name="playerStart" x="288" y="128" width="32" height="32"/>
+  <object id="2" name="playerStart" x="288" y="600" width="32" height="32"/>
   <object id="3" type="house" x="264.667" y="45" width="72.3333" height="81.6667"/>
   <object id="4" type="house" x="393" y="41" width="93.6667" height="86.6667"/>
   <object id="5" type="house" x="549.667" y="37.3333" width="64.6667" height="71"/>

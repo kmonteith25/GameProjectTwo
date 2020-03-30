@@ -5,6 +5,7 @@
 #include "../../../../Animations/AnimatedSprite.h"
 #include <string>
 #include "../../../../GameMap.h"
+#include "../../../../Magic.h"
 using namespace std;
 class GameMap;
 class FireChicken : public Character
@@ -32,7 +33,8 @@ public:
 
 		void MoveUp();
 		void startAnimation();
-		void Update();
+		void Update(sf::RenderWindow* Window);
+
 		void resetDistance();
 		AnimatedSprite* getSprite();
 		void randomMove();
@@ -44,7 +46,7 @@ public:
 		Animation walkingAnimationDown;
 		sf::Vector2f movement;
 		sf::Clock frameClock;
-		float speed = 80.f;
+		float speed = 20.f;
 
 		AnimatedSprite sprite;
 
@@ -60,6 +62,7 @@ public:
 		bool animation_playing = false;
 		GameMap* mapObject;
 		void setup();
+		void Shoot();
 		float xPosition;
 		void animation();
 		float yPosition;
@@ -67,6 +70,9 @@ public:
 		sf::Color color;
 		sf::Clock colorClock;
 		int health = 100;
+
+		string direction = "down";
+		vector<Magic*> shots;
 	};
 
 

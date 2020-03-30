@@ -8,20 +8,25 @@
 #include <tmxlite/TileLayer.hpp>
 #include "OrtoMap.h"
 #include <chrono>
-#include "Entities/Characters/Character.h"
 
+class Hero;
+class EnemyFactory;
+class Character;
 using namespace std;
 class GameMap
 {
 public:
 	~GameMap();
 	GameMap(sf::RenderWindow* Window);
+	void setHero(Hero* hero);
 	void createMap();
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
 	bool checkCollisionForEnemy(sf::FloatRect bounds);
 	Character* checkCollisionEnemy(sf::FloatRect bounds);
+	void setHeroLocation(sf::FloatRect loc);
+	Character* checkCollisionHero(sf::FloatRect bounds);
 	tmx::FloatRect getPlayerStartPosition();
 	void setupEnemySpawnLocations();
 	void spawnEnemies();
@@ -40,10 +45,13 @@ private:
 	MapLayer* layerTwo; 
 	MapLayer* layerThree;
 	MapLayer* layerFour;
+
+	Hero* hero;
 	tmx::ObjectGroup objectLayer;
 
 	sf::RenderWindow* Window;
 
 	int heroKills = 0;
+	sf::FloatRect heroLocation;
 };
 

@@ -1,5 +1,6 @@
 #include "Magic.h"
 
+
 Magic::Magic(float x, float y)
 {
 }
@@ -104,7 +105,6 @@ void Magic::Update() {
 }
 
 float Magic::getDistance() {
-    cout << distanceX + distanceY << "\n";
     return distanceX + distanceY;
 }
 

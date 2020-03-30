@@ -37,10 +37,10 @@ void Game::updateHeroHealth() {
 void Game::gameLoop()
 {
     
-    
+   
     sf::Clock globalClock;
-    hero = new Hero(map);
-
+    
+    
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
     sf::IntRect iBounds(fBounds);
@@ -62,7 +62,9 @@ void Game::gameLoop()
     sf::Sound sound;
     sound.setVolume(10);
     sound.setBuffer(buffer);   
-
+    map = new GameMap(&Window);
+    hero = new Hero(map); 
+    map->setHero(hero);
     while (Window.isOpen()) {
         
         sf::Event event;

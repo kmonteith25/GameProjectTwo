@@ -5,6 +5,7 @@
 #include "../../../Animations/AnimatedSprite.h"
 #include <string>
 #include "../../../Magic.h"
+
 using namespace std;
 
 class Hero : public Character

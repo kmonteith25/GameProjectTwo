@@ -1,11 +1,20 @@
+#include "Factories/EnemyFactory.h"
+#include "Entities/Characters/Hero/Hero.h"
 #include "GameMap.h"
 
-#include "Factories/EnemyFactory.h"
-
-GameMap::GameMap(sf::RenderWindow* Window)
+GameMap::~GameMap()
 {
+}
+
+GameMap::GameMap(sf::RenderWindow* Window) 
+{
+    
     this->Window = Window;
     InitMap();
+}
+
+void GameMap::setHero(Hero* hero) {
+    this->hero = hero;
 }
 
 void GameMap::createMap()
@@ -124,6 +133,27 @@ Character* GameMap::checkCollisionEnemy(sf::FloatRect bounds) {
     return NULL;
 }
 
+void GameMap::setHeroLocation(sf::FloatRect loc) {
+    heroLocation = loc;
+}
+
+Character* GameMap::checkCollisionHero(sf::FloatRect bounds) {
+    float x1 = bounds.left;
+    float y1 = bounds.top;
+    float x2 = x1 + bounds.width;
+    float y2 = y1 + bounds.height;
+    sf::FloatRect heroLocation = hero->getSprite()->getGlobalBounds();
+    float x1T = heroLocation.left;
+    float y1T = heroLocation.top;
+    float x2T = x1T + heroLocation.width;
+    float y2T = y1T + heroLocation.height;
+    if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
+        cout << "hit \n";
+        return hero;
+     }
+    return NULL;
+}
+
 tmx::FloatRect GameMap::getPlayerStartPosition() {
     const auto& objects = objectLayer.getObjects();
     for (const auto& object : objects)
@@ -176,7 +206,7 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
                     enemyGroups[i][j] = NULL;
                 }
                 else {
-                    enemyGroups[i][j]->Update();
+                    enemyGroups[i][j]->Update(Window);
                     Window->draw((*enemyGroups[i][j]->getSprite()));
                 }
             }

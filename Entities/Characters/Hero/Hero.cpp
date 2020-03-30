@@ -1,6 +1,5 @@
 #include "Hero.h"
-
-
+#include "../../../GameMap.h"
 Hero::Hero(GameMap* map)
 {
     mapObject = map;
@@ -143,6 +142,7 @@ void Hero::startAnimation() {
     animation_playing = true;
 }
 
+
 void Hero::Draw(sf::RenderWindow* Window) {
     Window->draw((*getSprite()));
    for (int i = 0; i < shots.size(); i++) {
@@ -212,6 +212,7 @@ void Hero::Update(bool keyPress,sf::View* View) {
     if (!mapObject->checkCollision(bounds)) {
 
         sprite.move(tempMove);
+        mapObject->setHeroLocation(sprite.getGlobalBounds());
     }
     getSprite()->setColor(color);
     if (colorClock.getElapsedTime().asSeconds() > .25) {

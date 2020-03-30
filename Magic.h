@@ -1,20 +1,21 @@
 #pragma once
 #include "Entities/Entity.h"
 #include <SFML\System\Clock.hpp>
-#include "GameMap.h"
 #include <SFML/Audio.hpp>
+#include <string>
+#include "GameMap.h"
 
 class Magic :public Entity
 {
 public:
 	Magic(float x, float y);
-	Magic(float x, float y, string direction);
+	Magic(float x, float y, std::string direction);
 	Magic();
 	~Magic();
 
-	void setSpeed(string direction);
+	void setSpeed(std::string direction);
 
-	void Move(string direction);
+	void Move(std::string direction);
 
 	void MoveLeft();
 	void MoveRight();
