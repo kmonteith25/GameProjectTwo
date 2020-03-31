@@ -29,12 +29,14 @@ public:
 	Character* checkCollisionHero(sf::FloatRect bounds);
 	tmx::FloatRect getPlayerStartPosition();
 	void setupEnemySpawnLocations();
+	void setupItemSpawnLocations();
 	void spawnEnemies();
 	void drawEnemies(sf::RenderWindow* Window);
 	void increaseHeroKills(bool kill);
 	int getHeroKills();
 private:
 	std::vector<tmx::FloatRect> enemySpawnLocations;
+	std::vector<tmx::FloatRect> itemSpawnLocations;
 	std::array<std::array<Character*, 3>, 3> enemyGroups;
 	string collisionNames[6] = {"trees","house","water","wall","hill","car"};
 

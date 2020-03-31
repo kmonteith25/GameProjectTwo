@@ -176,14 +176,14 @@ void FireChicken::Update(sf::RenderWindow* Window) {
     for (int i = 0; i < shots.size(); i++) {
         if (shots[i] != NULL) {
             bool checkCollide = mapObject->checkCollision(shots[i]->getSprite()->getGlobalBounds());
-            Character* checkCollideEnemy = mapObject->checkCollisionHero(shots[i]->getSprite()->getGlobalBounds());
+            Character* collideHero = mapObject->checkCollisionHero(shots[i]->getSprite()->getGlobalBounds());
       
             if ((abs(shots[i]->getDistance())) < 100.0f && !checkCollide) {
                 Window->draw((*shots[i]->getSprite()));
             }
             else {
-                if (checkCollideEnemy) {
-                    checkCollideEnemy->hit(10);
+                if (collideHero) {
+                    collideHero->hit(10);
                 }
                 shots.empty();
                 shots[i]->~Magic();

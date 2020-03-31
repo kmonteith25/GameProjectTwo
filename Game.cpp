@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "GameMap.h"
 #include "Entities/Characters/Hero/Hero.h"
+#include "Entities/Items/Potion.h"
 
 Game::Game()
 {
@@ -39,7 +40,7 @@ void Game::gameLoop()
     
    
     sf::Clock globalClock;
-    
+    Potion* potion = new Potion(100.f,100.f);
     
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
@@ -106,8 +107,10 @@ void Game::gameLoop()
         
         map->DrawMap(&Window);
         hero->Draw(&Window);
+        Window.draw((*potion->getSprite()));
         updateHeroHealth();
         Window.display();
+
         keyPress = false;
 
     } 

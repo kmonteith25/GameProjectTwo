@@ -175,6 +175,17 @@ void GameMap::setupEnemySpawnLocations() {
     }
 }
 
+void GameMap::setupItemSpawnLocations() {
+    const auto& objects = objectLayer.getObjects();
+    int counter = 0;
+    for (const auto& object : objects)
+    {
+        if (object.getType() == "itemSpawn") {
+            itemSpawnLocations.push_back(object.getAABB());
+        }
+    }
+}
+
 void GameMap::spawnEnemies() {
     for (int i = 0; i < enemySpawnLocations.size(); i++) {
         for (int j = 0; j < maxEnemiesGroup; j++) {
