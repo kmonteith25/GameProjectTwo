@@ -14,6 +14,16 @@ GhostMan::~GhostMan()
 {
 }
 
+int GhostMan::getHealth() {
+    return health;
+}
+
+void GhostMan::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void GhostMan::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void GhostMan::startAnimation() {
 }
 
 
-AnimatedSprite GhostMan::getSprite() {
-    return sprite;
+AnimatedSprite* GhostMan::getSprite() {
+    return &sprite;
 }
 
 void GhostMan::Update() {
@@ -79,7 +89,10 @@ void GhostMan::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

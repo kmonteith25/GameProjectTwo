@@ -1,10 +1,18 @@
 #include "Magic.h"
 
-Magic::Magic(float x, float y) {
+
+Magic::Magic(float x, float y)
+{
+}
+
+Magic::Magic(float x, float y, string direction) {
     xPosition = x;
     yPosition = y;
+    setSpeed(direction);
     setup();
     startAnimation();
+   
+        
 }
 
 Magic::Magic() {
@@ -12,6 +20,26 @@ Magic::Magic() {
 
 Magic::~Magic()
 {
+}
+
+void Magic::setSpeed(string direction) {
+    speedX, speedY = 0;
+    if (direction == "left") {
+        speedX = -250;
+        sprite.setRotation(90.0f);
+    }
+    else if (direction == "right") {
+        speedX = 250;
+        sprite.setRotation(90.0f);
+    }
+    else if (direction == "up") {
+        speedY = -250;
+
+    }
+    else if (direction == "down") {
+        speedY = 250;
+    }
+
 }
 
 void Magic::Move(string direction) {
@@ -53,32 +81,31 @@ void Magic::MoveUp() {
 void Magic::startAnimation() {
     sprite.play((*currentAnimation));
     animation_playing = true;
+
 }
 
 
-AnimatedSprite Magic::getSprite() {
-    return sprite;
+AnimatedSprite* Magic::getSprite() {
+    return &sprite;
 }
 
 void Magic::Update() {
     startAnimation();
-    movement.x = 160.0f;
-    movement.y = 0.0f;
+    movement.x = speedX;
+    movement.y = speedY;
     sf::Time frameTime = frameClock.restart();
     movement = movement * frameTime.asSeconds();
-    sf::FloatRect bounds = getSprite().getGlobalBounds();
+    sf::FloatRect bounds = getSprite()->getGlobalBounds();
     bounds.left += movement.x;
     bounds.top += movement.y;
-    //if (!mapObject->checkCollision(bounds)) {
-      //  sprite.move(movement);
-
-    //}
+    distanceX += movement.x;
+    distanceY += movement.y;
     sprite.move(movement);
     sprite.update(frameTime);
+}
 
-    
-
-    sprite.update(frameTime);
+float Magic::getDistance() {
+    return distanceX + distanceY;
 }
 
 void Magic::setup() {
@@ -92,7 +119,7 @@ void Magic::setup() {
     shootingAnimation.addFrame(sf::IntRect(164, 176, 25,25));
     
     currentAnimation = &shootingAnimation;
-    sprite.setRotation(90.0f);
+    
     sprite.play((*currentAnimation));
     //sprite.stop();
 }

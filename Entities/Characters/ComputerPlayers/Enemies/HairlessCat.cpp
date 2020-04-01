@@ -14,6 +14,15 @@ HairlessCat::~HairlessCat()
 {
 }
 
+int HairlessCat::getHealth() {
+    return health;
+} 
+void HairlessCat::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void HairlessCat::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +69,8 @@ void HairlessCat::startAnimation() {
 }
 
 
-AnimatedSprite HairlessCat::getSprite() {
-    return sprite;
+AnimatedSprite* HairlessCat::getSprite() {
+    return &sprite;
 }
 
 void HairlessCat::Update() {
@@ -79,7 +88,10 @@ void HairlessCat::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

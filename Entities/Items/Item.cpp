@@ -1,8 +1,8 @@
 #include "Item.h"
 
-AnimatedSprite Item::getSprite()
+AnimatedSprite* Item::getSprite()
 {
-	return AnimatedSprite();
+	return &AnimatedSprite();
 }
 
 Item::Item(float x, float y) {

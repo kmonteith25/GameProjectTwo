@@ -54,7 +54,6 @@ private:
 	tmx::ObjectGroup objectLayer;
 
 	sf::RenderWindow* Window;
-
 	std::array<Item*,6> items;
 	int heroKills = 0;
 	sf::FloatRect heroLocation;

@@ -13,9 +13,12 @@ using namespace std;
 class Block : public Character
 {
 public:
+	Block(float x, float y, GameMap* gamemap);
 	Block(float x, float y);
 	Block();
 	~Block();
+
+	int getHealth();
 
 	void Move(string direction);
 
@@ -23,11 +26,11 @@ public:
 	void MoveRight();
 
 	void MoveDown();
-
+	void hit();
 	void MoveUp();
 	void startAnimation();
 	void Update();
-	AnimatedSprite getSprite();
+	AnimatedSprite* getSprite();
 private:
 	Animation* currentAnimation;
 	Animation walkingAnimationRight;
@@ -49,7 +52,12 @@ private:
 	bool animation_playing = false;
 	GameMap* mapObject;
 	void setup();
+	void hit(int hitPoints);
 	float xPosition;
 	void animation();
 	float yPosition;
+
+	sf::Color color;
+	sf::Clock colorClock;
+	int health = 100;
 };

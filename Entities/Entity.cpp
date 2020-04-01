@@ -16,7 +16,7 @@ void Entity::Update()
 {
 }
 
-AnimatedSprite Entity::getSprite()
+AnimatedSprite* Entity::getSprite()
 {
-	return AnimatedSprite();
+	return &AnimatedSprite();
 }

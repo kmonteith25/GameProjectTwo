@@ -14,6 +14,16 @@ FishTwo::~FishTwo()
 {
 }
 
+int FishTwo::getHealth() {
+    return health;
+}
+
+void FishTwo::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void FishTwo::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void FishTwo::startAnimation() {
 }
 
 
-AnimatedSprite FishTwo::getSprite() {
-    return sprite;
+AnimatedSprite* FishTwo::getSprite() {
+    return &sprite;
 }
 
 void FishTwo::Update() {
@@ -79,7 +89,10 @@ void FishTwo::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

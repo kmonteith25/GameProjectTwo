@@ -14,6 +14,16 @@ Trash::~Trash()
 {
 }
 
+int Trash::getHealth() {
+    return health;
+}
+
+void Trash::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void Trash::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void Trash::startAnimation() {
 }
 
 
-AnimatedSprite Trash::getSprite() {
-    return sprite;
+AnimatedSprite* Trash::getSprite() {
+    return &sprite;
 }
 
 void Trash::Update() {
@@ -79,7 +89,10 @@ void Trash::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

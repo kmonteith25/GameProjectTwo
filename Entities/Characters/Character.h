@@ -3,21 +3,20 @@
 #include<vector>
 #include<string>
 #include "../Entity.h"
-
+#include <SFML/Graphics.hpp>
+class GameMap;
 class Character: public Entity
 {
 public:
-	virtual void Update();
-
-
-
-
-
+	Character();
+	Character(float x, float y);
+	Character(float x, float y, GameMap* gamemap);
+	virtual void Update(sf::RenderWindow* Window);
+	virtual void hit(int hitPoints) = 0;
+	virtual int getHealth() = 0;
 private:
 	std::string spriteFile = "";
 	virtual void animation() = 0;
+	
 };
-
-//vector of items for each class 
-//connect to enemy class & hero class 
 

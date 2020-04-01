@@ -11,8 +11,8 @@ Potion::~Potion() {
 
 }
 
-AnimatedSprite Potion::getSprite() {
-    return sprite;
+AnimatedSprite* Potion::getSprite() {
+    return &sprite;
 }
 
 void Potion::startAnimation() {
@@ -21,13 +21,7 @@ void Potion::startAnimation() {
 }
 
 void Potion::Update() {
-    sf::Time frameTime = frameClock.restart();
-    movement.x = 0.0f;
-    movement.y = 0.0f;
-    sprite.move(movement * frameTime.asSeconds());
-    sprite.update(frameTime);
 
-    
 }
 
 void Potion::setup() {

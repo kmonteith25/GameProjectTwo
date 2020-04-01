@@ -14,6 +14,16 @@ CollegeStudent::~CollegeStudent()
 {
 }
 
+int CollegeStudent::getHealth() {
+    return health;
+}
+
+void CollegeStudent::hit(int hitPoints) {
+    health -= hitPoints;
+    color = sf::Color::Red;
+    colorClock.restart();
+}
+
 void CollegeStudent::Move(string direction) {
     if (direction == "left") {
         MoveLeft();
@@ -60,8 +70,8 @@ void CollegeStudent::startAnimation() {
 }
 
 
-AnimatedSprite CollegeStudent::getSprite() {
-    return sprite;
+AnimatedSprite* CollegeStudent::getSprite() {
+    return &sprite;
 }
 
 void CollegeStudent::Update() {
@@ -79,7 +89,10 @@ void CollegeStudent::Update() {
 
     movement.x = 0.0f;
     movement.y = 0.0f; */
-
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
     sprite.update(frameTime);
 }
 

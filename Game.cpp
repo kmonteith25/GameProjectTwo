@@ -107,7 +107,6 @@ void Game::gameLoop()
         
         map->DrawMap(&Window);
         hero->Draw(&Window);
-        //Window.draw((*potion->getSprite()));
         updateHeroHealth();
         Window.display();
 

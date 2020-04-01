@@ -230,7 +230,6 @@ void GameMap::drawItems(sf::RenderWindow* Window) {
     }
 
 
-
 void GameMap::spawnEnemies() {
     for (int i = 0; i < enemySpawnLocations.size(); i++) {
         for (int j = 0; j < maxEnemiesGroup; j++) {
