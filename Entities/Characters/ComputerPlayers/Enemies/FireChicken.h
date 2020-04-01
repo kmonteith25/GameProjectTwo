@@ -18,6 +18,8 @@ public:
 
 		int getHealth();
 
+		void generateItem();
+
 		void hit(int hitPoints);
 
 		void Move(string direction);
@@ -35,8 +37,11 @@ public:
 		void startAnimation();
 		void Update(sf::RenderWindow* Window);
 
+		Item* dropItem();
+
 		void resetDistance();
 		AnimatedSprite* getSprite();
+		void followEnemy();
 		void randomMove();
 	private:
 		Animation* currentAnimation;
@@ -46,7 +51,7 @@ public:
 		Animation walkingAnimationDown;
 		sf::Vector2f movement;
 		sf::Clock frameClock;
-		float speed = 20.f;
+		float speed = 60.f;
 
 		AnimatedSprite sprite;
 
@@ -73,6 +78,8 @@ public:
 
 		string direction = "down";
 		vector<Magic*> shots;
+
+		Item* itemHold;
 	};
 
 

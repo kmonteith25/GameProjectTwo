@@ -39,3 +39,10 @@ void Potion::setup() {
 void Potion::animation()
 {
 }
+
+void Potion::setLocation(float x, float y)
+{
+    sprite.setPosition(x,y);
+    xPosition = x;
+    yPosition = y;
+}

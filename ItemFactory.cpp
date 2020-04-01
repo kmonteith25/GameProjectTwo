@@ -1,6 +1,7 @@
 #include "ItemFactory.h"
 
-#include "../Entities/Items/Potion.h"
+#include "Entities/Items/Potion.h"
+
 Item* ItemFactory::randomItem(float x, float y) {
 
 	switch (1) {

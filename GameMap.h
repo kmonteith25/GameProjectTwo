@@ -19,6 +19,7 @@ public:
 	~GameMap();
 	GameMap(sf::RenderWindow* Window);
 	void setHero(Hero* hero);
+	sf::FloatRect getHeroLocation();
 	void createMap();
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
@@ -39,10 +40,10 @@ public:
 private:
 	std::vector<tmx::FloatRect> enemySpawnLocations;
 	std::vector<tmx::FloatRect> itemSpawnLocations;
-	std::array<std::array<Character*, 3>, 3> enemyGroups;
-	string collisionNames[6] = {"trees","house","water","wall","hill","car"};
+	std::array<std::array<Character*, 4>, 4> enemyGroups;
+	string collisionNames[7] = {"trees","obstacle","house","water","wall","hill","car"};
 
-	int maxEnemiesGroup = 3;
+	int maxEnemiesGroup = 4;
 	tmx::Map map;
 	MapLayer* layerZero;
 	MapLayer* layerOne;
@@ -54,7 +55,7 @@ private:
 	tmx::ObjectGroup objectLayer;
 
 	sf::RenderWindow* Window;
-	std::array<Item*,6> items;
+	std::vector<Item*> items;
 	int heroKills = 0;
 	sf::FloatRect heroLocation;
 };

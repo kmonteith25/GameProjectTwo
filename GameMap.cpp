@@ -18,6 +18,10 @@ void GameMap::setHero(Hero* hero) {
     this->hero = hero;
 }
 
+sf::FloatRect GameMap::getHeroLocation() {
+    return hero->getSprite()->getGlobalBounds();
+}
+
 void GameMap::createMap()
 {
 
@@ -112,6 +116,9 @@ bool GameMap::checkCollisionForEnemy(sf::FloatRect bounds)
                 }
         }
     }
+    if (checkCollisionHero(bounds)) {
+        return true;
+    }
     return false;
 }
 
@@ -153,7 +160,6 @@ Character* GameMap::checkCollisionHero(sf::FloatRect bounds) {
     float x2T = x1T + heroLocation.width;
     float y2T = y1T + heroLocation.height;
     if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
-        cout << "hit \n";
         return hero;
      }
     return NULL;
@@ -194,9 +200,7 @@ void GameMap::setupItemSpawnLocations() {
 void GameMap::spawnItems() {
     for (int i = 0; i < itemSpawnLocations.size(); i++) {
         cout << "hell";
-        if (items[i] == NULL) {
-
-
+        if (items.size() < i) {
             srand(chrono::high_resolution_clock::now().time_since_epoch().count());
             int randomSpawn = rand() % 10;
             if (randomSpawn > 0) {
@@ -204,7 +208,7 @@ void GameMap::spawnItems() {
                 tmx::FloatRect temp = itemSpawnLocations[i];
                 cout << temp.top << "\n";
                 cout << temp.left << "\n";
-                items[i] = ItemFactory::randomItem(temp.left,temp.top);
+                items.push_back(ItemFactory::randomItem(temp.left,temp.top));
             }
         }
 
@@ -241,8 +245,8 @@ void GameMap::spawnEnemies() {
                     //spawn if greater than 7
                     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
                     tmx::FloatRect temp = enemySpawnLocations[i];
-                    int randomY = rand() % int(temp.height) + int(temp.top);
-                    int randomX = rand() % int(temp.width) + int(temp.left);
+                    int randomY = rand() % int(temp.height-64) + int(temp.top+32);
+                    int randomX = rand() % int(temp.width-64) + int(temp.left+32);
                     enemyGroups[i][j] = EnemyFactory::randomEnemy(float(randomX), float(randomY),this);
                 }
             }
@@ -257,6 +261,10 @@ void GameMap::drawEnemies(sf::RenderWindow* Window) {
             if(enemyGroups[i][j] != NULL) { 
                 if (enemyGroups[i][j]->getHealth() <= 0) {
                     increaseHeroKills(true);
+                    Item* droppedItem = enemyGroups[i][j]->dropItem();
+                    if (droppedItem != NULL) {
+                        items.push_back(droppedItem);
+                    }
                     enemyGroups[i][j]->~Character();
                     enemyGroups[i][j] = NULL;
                 }
@@ -281,23 +289,3 @@ int GameMap::getHeroKills() {
     return heroKills;
 }
 
-/*bool GameMap::checkCollision(sf::FloatRect bounds) {
-    float x1 = bounds.left;
-    float y1 = bounds.top;
-    float x2 = x1 + bounds.width;
-    float y2 = y1 + bounds.height;
-    for (auto& element : Map) {
-        sf::FloatRect bounds2 = element->getSprite().getGlobalBounds();
-        float x1T = bounds2.left;
-        float y1T = bounds2.top;
-        float x2T = x1T + bounds2.width;
-        float y2T = y1T + bounds2.height;
-        if (x1 < x2T && x2 > x1T && y1 < y2T && y2 > y1T) {
-            return true;
-        }
-    }
-
-    
-    return false; 
-
-}*/

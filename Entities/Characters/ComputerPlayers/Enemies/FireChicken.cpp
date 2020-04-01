@@ -1,5 +1,6 @@
 #include "FireChicken.h"
 #include "../../GameMap.h"
+#include "../../../../Factories/ItemFactory.h"
 
 FireChicken::FireChicken(float x, float y) {
     movement.x = 0;
@@ -8,6 +9,7 @@ FireChicken::FireChicken(float x, float y) {
     yPosition = y;
     setup();
     startAnimation();
+    generateItem();
 }
 
 FireChicken::FireChicken(float x, float y,GameMap* gamemap) {
@@ -18,6 +20,7 @@ FireChicken::FireChicken(float x, float y,GameMap* gamemap) {
     setup();
     startAnimation();
     this->mapObject = gamemap;
+    generateItem();
 }
 
 FireChicken::FireChicken() {
@@ -33,6 +36,14 @@ int FireChicken::getHealth() {
     return health;
 }
 
+void FireChicken::generateItem() {
+    srand(chrono::high_resolution_clock::now().time_since_epoch().count());
+    int randomSpawn = rand() % 10;
+    cout << randomSpawn << "\n";
+    if (randomSpawn > 8) {
+        itemHold = ItemFactory::randomItem(0,0);
+    }
+}
 void FireChicken::hit(int hitPoints) {
     health -= hitPoints;
     color = sf::Color::Red;
@@ -107,6 +118,34 @@ void FireChicken::startAnimation() {
 AnimatedSprite* FireChicken::getSprite() {
     return &sprite;
 }
+void FireChicken::followEnemy() {
+    int heroX = mapObject->getHeroLocation().left;
+    int heroY = mapObject->getHeroLocation().top;
+    int enemyY = sprite.getGlobalBounds().top;
+    int enemyX = sprite.getGlobalBounds().left;
+
+    int differenceX = heroX - enemyX;
+    int differenceY = heroY - enemyY;
+
+    if (abs(differenceX) > abs(differenceY)) {
+        if (differenceX > 0) {
+            Move("right");
+        }
+        else {
+            Move("left");
+        }
+    }
+    else {
+        if (differenceY > 0) {
+            Move("down");
+        }
+        else {
+            Move("up");
+        }
+    }
+    
+}
+
 
 void FireChicken::randomMove() {
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
@@ -134,10 +173,12 @@ void FireChicken::randomMove() {
 void FireChicken::Update(sf::RenderWindow* Window) {
     sf::Vector2f tempMove;
     sf::Time frameTime = frameClock.restart();
+    
     tempMove = movement * frameTime.asSeconds();
     if (!isMoving()) {
         Shoot();
-        randomMove();
+       // randomMove();
+        followEnemy();
     }
     sf::FloatRect bounds = getSprite()->getGlobalBounds();
     bounds.left += tempMove.x;
@@ -192,6 +233,18 @@ void FireChicken::Update(sf::RenderWindow* Window) {
         }
 
     }
+}
+
+Item* FireChicken::dropItem()
+{
+    if (itemHold != NULL) {
+        itemHold->setLocation(sprite.getGlobalBounds().left, sprite.getGlobalBounds().top);
+        return itemHold;
+    }
+    else {
+        return NULL;
+    }
+    
 }
 
 void FireChicken::resetDistance() {

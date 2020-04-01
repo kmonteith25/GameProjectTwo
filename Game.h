@@ -18,7 +18,6 @@ public:
 	~Game();
 	void setup();
 	void userInputControlManager();
-	void updateHeroHealth();
 	void gameLoop();
 private:
 	sf::RenderWindow Window;

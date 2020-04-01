@@ -15,3 +15,8 @@ Character::Character(float x, float y, GameMap* gamemap)
 void Character::Update(sf::RenderWindow* Window)
 {
 }
+
+Item* Character::dropItem()
+{
+	return nullptr;
+}

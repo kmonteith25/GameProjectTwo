@@ -166,6 +166,7 @@
     <ClCompile Include="Entities\Items\Item.cpp" />
     <ClCompile Include="ItemBag.cpp" />
     <ClCompile Include="Factories\ItemFactory.cpp" />
+    <ClCompile Include="ItemFactory.cpp" />
     <ClCompile Include="Magic.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="GameMap.cpp" />
@@ -193,6 +194,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Entities\Characters\Hero\Hero.h" />
     <ClInclude Include="Entities\Items\Item.h" />
+    <ClInclude Include="ItemFactory.h" />
     <ClInclude Include="Magic.h" />
     <ClInclude Include="OrtoMap.h" />
     <ClInclude Include="ItemBag.h" />

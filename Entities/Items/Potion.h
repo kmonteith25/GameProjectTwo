@@ -27,5 +27,6 @@ private:
 	void animation();
 	float xPosition;
 	float yPosition;
+	void setLocation(float x, float y);
 };
 

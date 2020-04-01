@@ -15,3 +15,7 @@ Item::Item()
 Item::~Item()
 {
 }
+
+void Item::setLocation(float x, float y)
+{
+}
