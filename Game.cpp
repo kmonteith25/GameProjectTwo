@@ -1,5 +1,7 @@
 #include "Game.h"
-
+#include "GameMap.h"
+#include "Entities/Characters/Hero/Hero.h"
+#include "Entities/Items/Potion.h"
 
 Game::Game()
 {
@@ -14,6 +16,7 @@ void Game::setup()
     Window.create(sf::VideoMode(1000, 768), "Pokemon Killers", sf::Style::Close);
     View = sf::View(Window.getDefaultView());
     fBounds = sf::FloatRect(0.f, 0.f, 1000.f, 1000.f);
+    font.loadFromFile("assets/fonts/Zelda.ttf");
 
 }
 
@@ -22,14 +25,23 @@ void Game::userInputControlManager() {
 
 }
 
+void Game::updateHeroHealth() {
+    heroScore.setFont(font);
+    heroScore.setString(std::to_string(hero->getHealth())+"%");
+    heroScore.setCharacterSize(65);
+    heroScore.setFillColor(sf::Color::Red);
+    heroScore.setPosition(0+ View.getCenter().x - (View.getSize().x / 2), (700+ View.getCenter().y - (View.getSize().y / 2)));
+    Window.draw(heroScore);
+}
+
 
 void Game::gameLoop()
 {
     
-    
+   
     sf::Clock globalClock;
-    Hero* hero = new Hero(map);
-
+    Potion* potion = new Potion(100.f,100.f);
+    
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
     sf::IntRect iBounds(fBounds);
@@ -42,15 +54,31 @@ void Game::gameLoop()
     sf::Music music;
     music.openFromFile("music.ogg");
     music.setLoop(true);
-    music.setVolume(0);
+    music.setVolume(4);
     music.play();
-    
-    Magic* magic = new Magic(200, 200);
+
+    //sounds
+    sf::SoundBuffer buffer;
+    buffer.loadFromFile("magic.wav");
+    sf::Sound sound;
+    sound.setVolume(10);
+    sound.setBuffer(buffer);   
+    map = new GameMap(&Window);
+    hero = new Hero(map); 
+    map->setHero(hero);
     while (Window.isOpen()) {
+        
         sf::Event event;
         while (Window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) {
                 Window.close();
+            }
+            else if (event.type == sf::Event::KeyPressed) {
+                if (event.key.code == 57) {
+                    sound.play();
+                    hero->Shoot();
+                   
+                }
             }
         }
 
@@ -73,17 +101,16 @@ void Game::gameLoop()
             hero->Move("right");
             keyPress = true;
         }
+        hero->Update(keyPress, &View);
         Window.clear();
         Window.setView(View);
-
         
-        magic->Update();
-        hero->Update(keyPress,&View);
         map->DrawMap(&Window);
-        Window.draw(hero->getSprite());
-
-        Window.draw(magic->getSprite());
+        hero->Draw(&Window);
+        //Window.draw((*potion->getSprite()));
+        updateHeroHealth();
         Window.display();
+
         keyPress = false;
 
     } 
