@@ -1,15 +1,13 @@
 #include "ItemFactory.h"
 
-#include "Entities/Items/Potion.h"
-
 Item* ItemFactory::randomItem(float x, float y) {
 
-	switch (1) {
+	switch (0) {
 	case 0:
-		//potion = new Poition(x, y, gamemap);
-
+		return new Potion(x, y);
 		break;
 	case 1:
+		return new MagicPotion(x, y);
 		break;
 	case 2:
 		break;
@@ -27,5 +25,6 @@ Item* ItemFactory::randomItem(float x, float y) {
 		break;
 	}
 
-	return new Potion(x,y);
+	
+	
 }

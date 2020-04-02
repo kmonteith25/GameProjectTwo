@@ -47,10 +47,10 @@ void Game::gameLoop()
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
     sf::Music music;
-   /* music.openFromFile("music.ogg");
+   music.openFromFile("music.ogg");
     music.setLoop(true);
     music.setVolume(4);
-    music.play();*/
+    music.play();
 
     //sounds
     sf::SoundBuffer buffer;
@@ -63,10 +63,17 @@ void Game::gameLoop()
     auto progressBar = tgui::ProgressBar::create();
  
     progressBar->setPosition(20, Window.getSize().y -50);
-    progressBar->setSize(200, 20);
+    progressBar->setSize(200, 30);
     
     gui.add(progressBar);
+    /*/
+    auto itembar = tgui::Scrollbar::create();
 
+    itembar->setPosition(20, Window.getSize().y - 50);
+    itembar->setSize(200, 50);
+
+    gui.add(itembar);
+    **/
 
     auto textRenderer = tgui::TextBoxRenderer();
     textRenderer.setBackgroundColor(sf::Color::Black);
