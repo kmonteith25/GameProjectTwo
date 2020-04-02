@@ -18,46 +18,46 @@ Character* EnemyFactory::randomEnemy(float x, float y, GameMap* gamemap) {
 	srand(chrono::high_resolution_clock::now().time_since_epoch().count());
 	int randomItem = rand() % 10;
 	Character* character_placeholder;
-	
-	switch (0) {
+	switch (randomItem) {
 	case 0:
 		character_placeholder = new FireChicken(x,y,gamemap);
 		break;
 	case 1:
-		character_placeholder = new CollegeStudent(x, y);
+		character_placeholder = new CollegeStudent(x, y, gamemap);
 		break;
 	case 2:
-		character_placeholder = new Block(x, y);
+		character_placeholder = new Block(x, y, gamemap);
 		break;
 	case 3:
-		character_placeholder = new Dumb(x, y);
+		character_placeholder = new Dumb(x, y, gamemap);
 		break;
 	case 4:
-		character_placeholder = new Fish(x, y);
+		character_placeholder = new Fish(x, y, gamemap);
 		break;
 	case 5:
-		character_placeholder = new FishTwo(x, y);
+		character_placeholder = new FishTwo(x, y, gamemap);
 		break;
 	case 6:
-		character_placeholder = new FlyingRodent(x, y);
+		character_placeholder = new FlyingRodent(x, y, gamemap);
 		break;
 	case 7:
-		character_placeholder = new GhostMan(x, y);
+		character_placeholder = new GhostMan(x, y, gamemap);
 		break;
 	case 8:
-		character_placeholder = new HairlessCat(x, y);
+		character_placeholder = new HairlessCat(x, y, gamemap);
 		break;
 	case 9:
-		character_placeholder = new HappyFace(x, y);
+		character_placeholder = new HappyFace(x, y, gamemap);
 		break;
 	case 10:
-		character_placeholder = new Rodent(x, y);
+		character_placeholder = new Rodent(x, y, gamemap);
 		break;
 	case 11:
-		character_placeholder = new Trash(x, y);
+		character_placeholder = new Trash(x, y, gamemap);
 		break;
 	default:
-		character_placeholder = new CollegeStudent(x, y);
+		cout << "Probel \n";
+		character_placeholder = new CollegeStudent(x, y, gamemap);
 		break;
 	}
 	return character_placeholder;

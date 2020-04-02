@@ -185,7 +185,7 @@ void FireChicken::Update(sf::RenderWindow* Window) {
     bounds.top += tempMove.y;
     distanceX += tempMove.x;
     distanceY += tempMove.y;
-    if (!mapObject->checkCollisionForEnemy(bounds)) {
+    if (!mapObject->checkCollisionForEnemy(bounds,this)) {
 
         sprite.move(tempMove);
     }

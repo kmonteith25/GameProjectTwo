@@ -5,32 +5,44 @@
 #include "../../../../Animations/AnimatedSprite.h"
 #include <string>
 #include "../../../../GameMap.h"
+#include "../../../../Magic.h"
 using namespace std;
-
-// Pokemon = PoryGon   
-
-
+class GameMap;
 class Block : public Character
 {
 public:
-	Block(float x, float y, GameMap* gamemap);
 	Block(float x, float y);
+	Block(float x, float y, GameMap* gamemap);
 	Block();
 	~Block();
 
 	int getHealth();
 
+	void generateItem();
+
+	void hit(int hitPoints);
+
 	void Move(string direction);
+
+	void setMoving(bool move);
+
+	bool isMoving();
 
 	void MoveLeft();
 	void MoveRight();
 
 	void MoveDown();
-	void hit();
+
 	void MoveUp();
 	void startAnimation();
-	void Update();
+	void Update(sf::RenderWindow* Window);
+
+	Item* dropItem();
+
+	void resetDistance();
 	AnimatedSprite* getSprite();
+	void followEnemy();
+	void randomMove();
 private:
 	Animation* currentAnimation;
 	Animation walkingAnimationRight;
@@ -39,20 +51,23 @@ private:
 	Animation walkingAnimationDown;
 	sf::Vector2f movement;
 	sf::Clock frameClock;
-	float speed = 80.f;
+	float speed = 60.f;
 
 	AnimatedSprite sprite;
 
 	std::string spriteFile;
 
 	sf::Texture texture;
-	int distanceX = 0;
-	int distanceY = 0;
+	float distanceX = 0;
+	float distanceY = 0;
+	float startDistanceX = 0;
+	float startDistanceY = 0;
+	bool moving = false;
 
 	bool animation_playing = false;
 	GameMap* mapObject;
 	void setup();
-	void hit(int hitPoints);
+	void Shoot();
 	float xPosition;
 	void animation();
 	float yPosition;
@@ -60,4 +75,11 @@ private:
 	sf::Color color;
 	sf::Clock colorClock;
 	int health = 100;
+
+	string direction = "down";
+	vector<Magic*> shots;
+
+	Item* itemHold;
 };
+
+

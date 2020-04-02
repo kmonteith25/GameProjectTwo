@@ -24,7 +24,10 @@ public:
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
+	bool checkCollisionForEnemy(sf::FloatRect bounds, Character* self);
+	Character* checkCollisionEnemyNotSelf(sf::FloatRect bounds, Character* self);
 	bool checkCollisionForEnemy(sf::FloatRect bounds);
+	Character* checkCollisionEnemyNotSelf(sf::FloatRect bounds);
 	Character* checkCollisionEnemy(sf::FloatRect bounds);
 	void setHeroLocation(sf::FloatRect loc);
 	Character* checkCollisionHero(sf::FloatRect bounds);

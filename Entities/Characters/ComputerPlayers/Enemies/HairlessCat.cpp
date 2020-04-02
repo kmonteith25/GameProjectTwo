@@ -1,13 +1,31 @@
 #include "HairlessCat.h"
+#include "../../GameMap.h"
+#include "../../../../Factories/ItemFactory.h"
 
 HairlessCat::HairlessCat(float x, float y) {
+    movement.x = 0;
+    movement.y = 0;
     xPosition = x;
     yPosition = y;
     setup();
     startAnimation();
+    generateItem();
+}
+
+HairlessCat::HairlessCat(float x, float y, GameMap* gamemap) {
+    movement.x = 0;
+    movement.y = 0;
+    xPosition = x;
+    yPosition = y;
+    setup();
+    startAnimation();
+    this->mapObject = gamemap;
+    generateItem();
 }
 
 HairlessCat::HairlessCat() {
+    movement.x = 0;
+    movement.y = 0;
 }
 
 HairlessCat::~HairlessCat()
@@ -16,7 +34,16 @@ HairlessCat::~HairlessCat()
 
 int HairlessCat::getHealth() {
     return health;
-} 
+}
+
+void HairlessCat::generateItem() {
+    srand(chrono::high_resolution_clock::now().time_since_epoch().count());
+    int randomSpawn = rand() % 10;
+    cout << randomSpawn << "\n";
+    if (randomSpawn > 8) {
+        itemHold = ItemFactory::randomItem(0, 0);
+    }
+}
 void HairlessCat::hit(int hitPoints) {
     health -= hitPoints;
     color = sf::Color::Red;
@@ -24,43 +51,60 @@ void HairlessCat::hit(int hitPoints) {
 }
 
 void HairlessCat::Move(string direction) {
-    if (direction == "left") {
-        MoveLeft();
-    }
-    else if (direction == "right") {
-        MoveRight();
-    }
-    else if (direction == "up") {
-        MoveUp();
-    }
-    else if (direction == "down") {
-        MoveDown();
+    sprite.setOrigin({ sprite.getLocalBounds().width / 2, 0 });
+    sprite.setScale({ 1, 1 });
+    if (!isMoving()) {
+        setMoving(true);
+        if (direction == "left") {
+            MoveLeft();
+        }
+        else if (direction == "right") {
+            MoveRight();
+        }
+        else if (direction == "up") {
+            MoveUp();
+        }
+        else if (direction == "down") {
+            MoveDown();
+        }
     }
 
+}
+
+void HairlessCat::setMoving(bool move) {
+    moving = move;
+}
+
+bool HairlessCat::isMoving() {
+    return moving;
 }
 
 void HairlessCat::MoveLeft() {
     currentAnimation = &walkingAnimationLeft;
     movement.x -= speed;
     startAnimation();
+    direction = "left";
 }
 
 void HairlessCat::MoveRight() {
     movement.x += speed;
     currentAnimation = &walkingAnimationRight;
     startAnimation();
+    direction = "right";
 }
 
 void HairlessCat::MoveDown() {
     movement.y += speed;
     currentAnimation = &walkingAnimationDown;
     startAnimation();
+    direction = "down";
 }
 
 void HairlessCat::MoveUp() {
     movement.y -= speed;
     currentAnimation = &walkingAnimationUp;
     startAnimation();
+    direction = "up";
 }
 
 void HairlessCat::startAnimation() {
@@ -72,62 +116,198 @@ void HairlessCat::startAnimation() {
 AnimatedSprite* HairlessCat::getSprite() {
     return &sprite;
 }
+void HairlessCat::followEnemy() {
+    int heroX = mapObject->getHeroLocation().left;
+    int heroY = mapObject->getHeroLocation().top;
+    int enemyY = sprite.getGlobalBounds().top;
+    int enemyX = sprite.getGlobalBounds().left;
 
-void HairlessCat::Update() {
-    startAnimation();
-    sf::Time frameTime = frameClock.restart();
-    /* movement = movement * frameTime.asSeconds();
-    sf::FloatRect bounds = getSprite().getGlobalBounds();
-    bounds.left += movement.x;
-    bounds.top += movement.y;
-    if (!mapObject->checkCollision(bounds)) {
-        sprite.move(movement);
+    int differenceX = heroX - enemyX;
+    int differenceY = heroY - enemyY;
+
+    if (abs(differenceX) > abs(differenceY)) {
+        if (differenceX > 0) {
+            Move("right");
+        }
+        else {
+            Move("left");
+        }
+    }
+    else {
+        if (differenceY > 0) {
+            Move("down");
+        }
+        else {
+            Move("up");
+        }
+    }
+
+}
+
+
+void HairlessCat::randomMove() {
+    srand(chrono::high_resolution_clock::now().time_since_epoch().count());
+    int randomMove = (rand() % 4) + 1;
+
+    switch (randomMove) {
+    case 1:
+        Move("left");
+        break;
+    case 2:
+        Move("right");
+        break;
+    case 3:
+        Move("up");
+        break;
+    case 4:
+        Move("down");
+        break;
 
     }
-    sprite.update(frameTime);
 
-    movement.x = 0.0f;
-    movement.y = 0.0f; */
+
+}
+
+void HairlessCat::Update(sf::RenderWindow* Window) {
+    sf::Vector2f tempMove;
+    sf::Time frameTime = frameClock.restart();
+
+    tempMove = movement * frameTime.asSeconds();
+    if (!isMoving()) {
+        Shoot();
+        // randomMove();
+        followEnemy();
+    }
+    sf::FloatRect bounds = getSprite()->getGlobalBounds();
+    bounds.left += tempMove.x;
+    bounds.top += tempMove.y;
+    distanceX += tempMove.x;
+    distanceY += tempMove.y;
+    if (!mapObject->checkCollisionForEnemy(bounds,this)) {
+
+        sprite.move(tempMove);
+    }
     getSprite()->setColor(color);
     if (colorClock.getElapsedTime().asSeconds() > .25) {
         color = sf::Color(255, 255, 255, 255);
     }
     sprite.update(frameTime);
+
+    if (abs(distanceX) >= 32 || abs(distanceY) >= 32) {
+        movement.x = 0;
+        movement.y = 0;
+        sprite.stop();
+        resetDistance();
+        setMoving(false);
+
+    }
+
+    getSprite()->setColor(color);
+    if (colorClock.getElapsedTime().asSeconds() > .25) {
+        color = sf::Color(255, 255, 255, 255);
+    }
+    sprite.update(frameTime);
+    for (int i = 0; i < shots.size(); i++) {
+        if (shots[i] != NULL) {
+            shots[i]->Update();
+        }
+    }
+    for (int i = 0; i < shots.size(); i++) {
+        if (shots[i] != NULL) {
+            bool checkCollide = mapObject->checkCollision(shots[i]->getSprite()->getGlobalBounds());
+            Character* collideHero = mapObject->checkCollisionHero(shots[i]->getSprite()->getGlobalBounds());
+
+            if ((abs(shots[i]->getDistance())) < 100.0f && !checkCollide) {
+                Window->draw((*shots[i]->getSprite()));
+            }
+            else {
+                if (collideHero) {
+                    collideHero->hit(10);
+                }
+                shots.empty();
+                shots[i]->~Magic();
+                shots.erase(shots.begin() + i);
+            }
+        }
+
+    }
+}
+
+Item* HairlessCat::dropItem()
+{
+    if (itemHold != NULL) {
+        itemHold->setLocation(sprite.getGlobalBounds().left, sprite.getGlobalBounds().top);
+        return itemHold;
+    }
+    else {
+        return NULL;
+    }
+
+}
+
+void HairlessCat::resetDistance() {
+    sf::FloatRect bounds = getSprite()->getGlobalBounds();
+    distanceX = 0;
+    distanceY = 0;
+    startDistanceX = bounds.left;
+    startDistanceY = bounds.top;
 }
 
 void HairlessCat::setup() {
-    spriteFile = "assets/sprites/pokemon.png"; // Sprite commented out untill added sprite for each specific pokemon 
+    spriteFile = "assets/sprites/pokemon2.png";
     texture.loadFromFile(spriteFile);
-    sprite.setFrameTime(sf::seconds(0.1));
-    sprite.setScale(1.5f, 1.5f);
+    sprite.setFrameTime(sf::seconds(0.4));
     sprite.setPosition(xPosition, yPosition);
 
 
+
     walkingAnimationRight.setSpriteSheet(texture);
-    walkingAnimationRight.addFrame(sf::IntRect(0, 224, 32, 32));
-    walkingAnimationRight.addFrame(sf::IntRect(32, 224, 32, 32));
-    walkingAnimationRight.addFrame(sf::IntRect(64, 224, 32, 32));
+    walkingAnimationRight.addFrame(sf::IntRect(192, 1280, 64, 64));
+    walkingAnimationRight.addFrame(sf::IntRect(192, 1344, 64, 64));
 
     walkingAnimationLeft.setSpriteSheet(texture);
-    walkingAnimationLeft.addFrame(sf::IntRect(0, 160, 32, 32));
-    walkingAnimationLeft.addFrame(sf::IntRect(32, 160, 32, 32));
-    walkingAnimationLeft.addFrame(sf::IntRect(64, 160, 32, 32));
+    walkingAnimationLeft.addFrame(sf::IntRect(128, 1280, 64, 64));
+    walkingAnimationLeft.addFrame(sf::IntRect(128, 1344, 64, 64));
 
     walkingAnimationUp.setSpriteSheet(texture);
-    walkingAnimationUp.addFrame(sf::IntRect(0, 128, 32, 32));
-    walkingAnimationUp.addFrame(sf::IntRect(32, 128, 32, 32));
-    walkingAnimationUp.addFrame(sf::IntRect(64, 128, 32, 32));
-    walkingAnimationUp.addFrame(sf::IntRect(32, 128, 32, 32));
+    walkingAnimationUp.addFrame(sf::IntRect(64, 1280, 64, 64));
+    walkingAnimationUp.addFrame(sf::IntRect(64, 1344, 64, 64));
 
     walkingAnimationDown.setSpriteSheet(texture);
-    walkingAnimationDown.addFrame(sf::IntRect(0, 0, 32, 32));
-    walkingAnimationDown.addFrame(sf::IntRect(0, 160, 32, 32));
-    walkingAnimationDown.addFrame(sf::IntRect(0, 192, 32, 32));
+    walkingAnimationDown.addFrame(sf::IntRect(0, 1280, 64, 64));
+    walkingAnimationDown.addFrame(sf::IntRect(0, 1344, 64, 64));
 
     currentAnimation = &walkingAnimationDown;
     sprite.play((*currentAnimation));
     //sprite.stop();
 }
+
+void HairlessCat::Shoot() {
+    if (shots.size() < 5) {
+        //only allow five magics at a time
+        sf::FloatRect heroLocation = getSprite()->getGlobalBounds();
+        float left, top;
+        left = heroLocation.left;
+        top = heroLocation.top;
+        if (direction == "left") {
+            top = top + (heroLocation.height / 4);
+        }
+        else if (direction == "right") {
+            top = top + (heroLocation.height / 4);
+            left = left + heroLocation.width;
+        }
+        else if (direction == "down") {
+            left = left + (heroLocation.width / 4);
+            top = top + heroLocation.height;
+        }
+        else if (direction == "up") {
+            left = left + (heroLocation.width / 4);
+        }
+
+        shots.push_back(new Magic(left, top, direction));
+    }
+}
+
 
 void HairlessCat::animation()
 {

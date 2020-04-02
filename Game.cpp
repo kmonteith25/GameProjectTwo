@@ -32,7 +32,10 @@ void Game::gameLoop()
     tgui::Gui gui(Window);
    
     sf::Clock globalClock;
-    Potion* potion = new Potion(100.f,100.f);
+
+    map = new GameMap(&Window);
+    hero = new Hero(map);
+    map->setHero(hero);
     
     sf::Texture Texture;
     Texture.loadFromFile("assets/sprites/grassSprite.png");
@@ -55,9 +58,7 @@ void Game::gameLoop()
     sf::Sound sound;
     sound.setVolume(10);
     sound.setBuffer(buffer);   
-    map = new GameMap(&Window);
-    hero = new Hero(map); 
-    map->setHero(hero);
+    
 
     auto progressBar = tgui::ProgressBar::create();
  
@@ -113,7 +114,6 @@ void Game::gameLoop()
             gameoverBox->setVisible(true);
         }
         else {
-            cout << shoot << "\n";
             if (shoot) {
                 sound.play();
                 hero->Shoot();
