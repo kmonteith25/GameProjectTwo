@@ -95,6 +95,34 @@ bool GameMap::checkCollision(sf::FloatRect bounds)
     return false;
 }
 
+
+Item* GameMap::checkCollisionItem(sf::FloatRect bounds)
+{
+
+    float x1 = bounds.left;
+    float y1 = bounds.top;
+    float x2 = x1 + bounds.width;
+    float y2 = y1 + bounds.height;
+    auto itemsArray = items;
+    for (int i = 0; i < itemsArray.size(); i++)
+    {
+            if (itemsArray[i] != NULL) {
+            sf::FloatRect bounds2 = itemsArray[i]->getSprite()->getGlobalBounds();
+            auto object = itemsArray[i];
+            float x1T = bounds2.left;
+            float y1T = bounds2.top;
+            float x2T = x1T + bounds2.width;
+            float y2T = y1T + bounds2.height;
+            if (x1 < x2T && x2 > x1T&& y1 < y2T && y2 > y1T) {
+                items[i] = NULL;
+                return object;
+            }
+        }
+    }
+    return NULL;
+}
+
+
 bool GameMap::checkCollisionForEnemy(sf::FloatRect bounds, Character* self)
 {
 
