@@ -222,7 +222,7 @@ void FishTwo::Update(sf::RenderWindow* Window) {
             }
             else {
                 if (collideHero) {
-                    collideHero->hit(10);
+                    collideHero->hit(15);
                 }
                 shots.empty();
                 shots[i]->~Magic();

@@ -224,7 +224,7 @@ void Trash::Update(sf::RenderWindow* Window) {
             }
             else {
                 if (collideHero) {
-                    collideHero->hit(10);
+                    collideHero->hit(5);
                 }
                 shots.empty();
                 shots[i]->~Magic();

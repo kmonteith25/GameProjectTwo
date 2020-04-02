@@ -2,7 +2,7 @@
 #include "GameMap.h"
 #include "Entities/Characters/Hero/Hero.h"
 #include "Entities/Items/Potion.h"
-#include <TGUI/TGUI.hpp>
+
 
 Game::Game()
 {
@@ -26,11 +26,55 @@ void Game::userInputControlManager() {
 
 }
 
+void Game::setupGameOver() {
+    auto textRenderer = tgui::TextBoxRenderer();
+    textRenderer.setBackgroundColor(sf::Color::Black);
+    textRenderer.setPadding(40);
+    textRenderer.setTextColor(sf::Color::White);
+    gameoverBox->setSize(230, 175);
+
+    gameoverBox->setRenderer(textRenderer.getData());
+    gameoverBox->setPosition(Window.getSize().x / 2 - 150, Window.getSize().y / 2 - 100);
+
+    gameoverBox->setText("GAME\nOVER");
+    gameoverBox->setTextSize(38);
+    gameoverBox->setVisible(false);
+
+}
+
+void Game::setupGameWin() {
+    auto textRenderer = tgui::TextBoxRenderer();
+    textRenderer.setBackgroundColor(sf::Color::Black);
+    textRenderer.setPadding(40);
+    textRenderer.setTextColor(sf::Color::White);
+    winBox->setSize(230, 175);
+
+    winBox->setRenderer(textRenderer.getData());
+    winBox->setPosition(Window.getSize().x / 2 - 150, Window.getSize().y / 2 - 100);
+
+    winBox->setText("YOU\nWIN");
+    winBox->setTextSize(38);
+    winBox->setVisible(false);
+
+}
+
+void Game::setupKillCounter() {
+    killCounter->setPosition(Window.getSize().x - 150, Window.getSize().y - 100);
+
+    killCounter->setText("Kills");
+    killCounter->setTextSize(38);
+    killCounter->setVisible(true);
+
+    killNumber->setPosition(Window.getSize().x - 150, Window.getSize().y - 50);
+
+    killNumber->setText("0");
+    killNumber->setTextSize(38);
+    killNumber->setVisible(true);
+}
 
 void Game::gameLoop()
 {
     tgui::Gui gui(Window);
-   
     sf::Clock globalClock;
 
     map = new GameMap(&Window);
@@ -47,10 +91,10 @@ void Game::gameLoop()
     unsigned int textureWidth = Texture.getSize().x;
     bool keyPress = false;
     sf::Music music;
-   /* music.openFromFile("music.ogg");
+    music.openFromFile("music.ogg");
     music.setLoop(true);
-    music.setVolume(4);
-    music.play();*/
+    music.setVolume(40);
+    music.play();
 
     //sounds
     sf::SoundBuffer buffer;
@@ -68,23 +112,16 @@ void Game::gameLoop()
     gui.add(progressBar);
 
 
-    auto textRenderer = tgui::TextBoxRenderer();
-    textRenderer.setBackgroundColor(sf::Color::Black);
-    textRenderer.setPadding(40);
-    textRenderer.setTextColor(sf::Color::White);
-
-    auto gameoverBox = tgui::TextBox::create();
-    //label->setRenderer(theme.getRenderer("Label"));
-    gameoverBox->setSize(230, 175);
-
-    gameoverBox->setRenderer(textRenderer.getData());
-    gameoverBox->setPosition(Window.getSize().x/2-150, Window.getSize().y / 2 - 100);
-
-    gameoverBox->setText("GAME\nOVER");
-    gameoverBox->setTextSize(38);
-    gameoverBox->setVisible(false);
-    bool shoot = false;
+    
+    setupGameOver();
+    setupGameWin();
+    setupKillCounter();
     gui.add(gameoverBox);
+    gui.add(winBox);
+    gui.add(killCounter);
+    gui.add(killNumber);
+    bool shoot = false;
+    
     while (Window.isOpen()) {
         hero->Update(keyPress, &View);
         Window.clear();
@@ -105,12 +142,14 @@ void Game::gameLoop()
             else if (event.type == sf::Event::KeyPressed) {
                 if (event.key.code == 57) {
                     shoot = true;
-
                 }
             }
         
         }
-        if (hero->getHealth() <= 0) {
+        if (hero->isWin()) {
+            winBox->setVisible(true);
+        }
+        else if (hero->getHealth() <= 0) {
             gameoverBox->setVisible(true);
         }
         else {
@@ -118,6 +157,7 @@ void Game::gameLoop()
                 sound.play();
                 hero->Shoot();
                 shoot = false;
+                killNumber->setText(to_string(map->getHeroKills()));
             }
 
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))

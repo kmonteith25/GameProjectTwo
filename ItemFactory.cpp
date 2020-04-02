@@ -7,7 +7,6 @@ Item* ItemFactory::randomItem(float x, float y) {
 	switch (1) {
 	case 0:
 		//potion = new Poition(x, y, gamemap);
-
 		break;
 	case 1:
 		break;

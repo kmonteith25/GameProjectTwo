@@ -28,6 +28,21 @@ void Hero::hit(int hitPoints) {
     colorClock.restart();
 }
 
+bool Hero::isWin() {
+    if (kills >= 20 && winLocation() && winLocation()) {
+        return true;
+    }
+        return false;
+}
+
+bool Hero::winLocation() {
+    sf::FloatRect heroBounds = sprite.getGlobalBounds();
+    if (heroBounds.left < (2642+512) && (heroBounds.left+heroBounds.width) > 2642 && heroBounds.top < (2286+1404) && (heroBounds.top + heroBounds.height) > 2286) {
+        return true;
+    }
+    return false;
+}
+
 void Hero::Move(string direction) {
     if (!isMoving()) {
         setMoving(true);

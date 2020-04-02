@@ -23,6 +23,10 @@ public:
 
 	void hit(int hitPoints);
 
+	bool isWin();
+
+	bool winLocation();
+
 	void Move(string direction);
 
 	void MoveLeft();

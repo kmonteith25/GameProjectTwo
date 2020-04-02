@@ -51,7 +51,7 @@ public:
 		Animation walkingAnimationDown;
 		sf::Vector2f movement;
 		sf::Clock frameClock;
-		float speed = 60.f;
+		float speed = 80.f;
 
 		AnimatedSprite sprite;
 
@@ -74,7 +74,7 @@ public:
 
 		sf::Color color;
 		sf::Clock colorClock;
-		int health = 100;
+		int health = 150;
 
 		string direction = "down";
 		vector<Magic*> shots;

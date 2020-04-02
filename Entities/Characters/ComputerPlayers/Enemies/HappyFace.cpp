@@ -1,5 +1,5 @@
 #include "HappyFace.h"
-#include "../../GameMap.h"
+#include "../../../../GameMap.h"
 #include "../../../../Factories/ItemFactory.h"
 
 HappyFace::HappyFace(float x, float y) {
@@ -222,7 +222,7 @@ void HappyFace::Update(sf::RenderWindow* Window) {
             }
             else {
                 if (collideHero) {
-                    collideHero->hit(10);
+                    collideHero->hit(15);
                 }
                 shots.empty();
                 shots[i]->~Magic();

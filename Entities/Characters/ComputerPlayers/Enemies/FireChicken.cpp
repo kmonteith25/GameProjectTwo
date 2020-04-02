@@ -224,7 +224,7 @@ void FireChicken::Update(sf::RenderWindow* Window) {
             }
             else {
                 if (collideHero) {
-                    collideHero->hit(10);
+                    collideHero->hit(4);
                 }
                 shots.empty();
                 shots[i]->~Magic();
