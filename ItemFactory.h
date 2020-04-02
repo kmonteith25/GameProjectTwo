@@ -1,6 +1,8 @@
 #pragma once
-
-#include "Entities/Items/Item.h"
+#include "../Entities/Items/MagicPotion.h"
+#include "../Entities/Items/Potion.h"
+#include "../Entities/Items/Item.h"
+#include "../Entities/Items/Item.h"
 
 class ItemFactory
 {

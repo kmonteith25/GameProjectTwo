@@ -24,6 +24,9 @@ public:
 	void InitMap();
 	void DrawMap(sf::RenderWindow* Window);
 	bool checkCollision(sf::FloatRect rect);
+	
+	Item* checkCollisionItem(sf::FloatRect bounds);
+
 	bool checkCollisionForEnemy(sf::FloatRect bounds, Character* self);
 	Character* checkCollisionEnemyNotSelf(sf::FloatRect bounds, Character* self);
 	bool checkCollisionForEnemy(sf::FloatRect bounds);
